@@ -1,0 +1,16 @@
+name: Ecoli_core_model
+biomass: R_Biomass_Ecoli_core_w_GAM
+default_flux_limit: 1000.0
+model:
+- include: core_model_definition.tsv
+compounds:
+- include: compounds.yaml
+reactions:
+- include: reactions/cytoplasm.yaml
+- include: reactions/periplasm.yaml
+- include: reactions/transporters.yaml
+- include: reactions/extracellular.yaml
+media:
+- include: medium.yaml
+limits:
+- include: limits.yaml

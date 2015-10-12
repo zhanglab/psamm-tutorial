@@ -1,0 +1,12 @@
+name: Ecoli_core_model
+biomass: R_Biomass_Ecoli_core_w_GAM
+default_flux_limit: 1000.0
+compounds:
+- include: compounds.yaml
+reactions:
+- include: reactions.yaml
+- include: mannitol_pathway.yaml
+media:
+- include: medium.yaml
+limits:
+- include: limits.yaml
