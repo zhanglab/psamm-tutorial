@@ -3,7 +3,7 @@
 - id: MANNI1PDEH
   equation: '|M_manni1p[C_c]| + |M_nad_c[C_c]| => |M_f6p_c[C_c]| + |M_h_c[C_c]| + |M_nadh_c[C_c]|'
 - id: MANNIDEH
-  equation: '|M_manni[C_c]| + |M_nad_c[C_c]| => |M_fru_c[C_c]| + |M_nadh_c[C_c]| + |M_h_c[C_c]|'
+  equation: '|M_manni[C_c]| + |M_nad_c[C_c]| => |M_fru_c[C_c]| + |M_nadh_c[C_c]|'
 - id: MANNI1PPHOS
   equation: '|M_manni1p[C_c]| + |M_h2o_c[C_c]| => |M_manni[C_c]| + |M_pi_c[C_c]|'
 - id: FRUKIN
