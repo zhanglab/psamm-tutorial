@@ -1,59 +1,59 @@
 name: Default medium
-compartment: C_e
+compartment: e
 compounds:
-- id: M_manni
-  lower: -10
-- id: M_ac_e
-  reaction: R_EX_ac_e
+- id: manni
+  lower: -10 
+- id: ac_e
+  reaction: EX_ac_e
   lower: 0.0
-- id: M_acald_e
-  reaction: R_EX_acald_e
+- id: acald_e
+  reaction: EX_acald_e
   lower: 0.0
-- id: M_akg_e
-  reaction: R_EX_akg_e
+- id: akg_e
+  reaction: EX_akg_e
   lower: 0.0
-- id: M_co2_e
-  reaction: R_EX_co2_e
-- id: M_etoh_e
-  reaction: R_EX_etoh_e
+- id: co2_e
+  reaction: EX_co2_e
+- id: etoh_e
+  reaction: EX_etoh_e
   lower: 0.0
-- id: M_for_e
-  reaction: R_EX_for_e
+- id: for_e
+  reaction: EX_for_e
   lower: 0.0
-- id: M_fru_e
-  reaction: R_EX_fru_e
+- id: fru_e
+  reaction: EX_fru_e
   lower: 0.0
-- id: M_fum_e
-  reaction: R_EX_fum_e
+- id: fum_e
+  reaction: EX_fum_e
   lower: 0.0
-- id: M_glc_D_e
-  reaction: R_EX_glc_e
+- id: glc_D_e
+  reaction: EX_glc_e
+  lower: -10.0
+- id: gln_L_e
+  reaction: EX_gln_L_e
   lower: 0.0
-- id: M_gln_L_e
-  reaction: R_EX_gln_L_e
+- id: glu_L_e
+  reaction: EX_glu_L_e
   lower: 0.0
-- id: M_glu_L_e
-  reaction: R_EX_glu_L_e
+- id: h2o_e
+  reaction: EX_h2o_e
+- id: h_e
+  reaction: EX_h_e
+- id: lac_D_e
+  reaction: EX_lac_D_e
   lower: 0.0
-- id: M_h2o_e
-  reaction: R_EX_h2o_e
-- id: M_h_e
-  reaction: R_EX_h_e
-- id: M_lac_D_e
-  reaction: R_EX_lac_D_e
+- id: mal_L_e
+  reaction: EX_mal_L_e
   lower: 0.0
-- id: M_mal_L_e
-  reaction: R_EX_mal_L_e
+- id: nh4_e
+  reaction: EX_nh4_e
+- id: o2_e
+  reaction: EX_o2_e
+- id: pi_e
+  reaction: EX_pi_e
+- id: pyr_e
+  reaction: EX_pyr_e
   lower: 0.0
-- id: M_nh4_e
-  reaction: R_EX_nh4_e
-- id: M_o2_e
-  reaction: R_EX_o2_e
-- id: M_pi_e
-  reaction: R_EX_pi_e
-- id: M_pyr_e
-  reaction: R_EX_pyr_e
-  lower: 0.0
-- id: M_succ_e
-  reaction: R_EX_succ_e
+- id: succ_e
+  reaction: EX_succ_e
   lower: 0.0
