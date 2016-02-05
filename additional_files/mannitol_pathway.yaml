@@ -5,7 +5,7 @@
 - id: MANNIDEH
   equation: '|manni[c]| + |nad_c[c]| => |fru_c[c]| + |nadh_c[c]|'
 - id: MANNI1PPHOS
-  equation: '|manni1p[c]| + |h2o_c[c]| => |manni[c]| + |M_pi_c[c]|'
+  equation: '|manni1p[c]| + |h2o_c[c]| => |manni[c]| + |pi_c[c]|'
 - id: FRUKIN
   equation: '|fru_c[c]| + |atp_c[c]| => |f6p_c[c]| + |adp_c[c]| + |h_c[c]|'
 
