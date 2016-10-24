@@ -1,8 +1,7 @@
 name: Default medium
-compartment: e
 compounds:
 - id: manni
-  lower: -10 
+  lower: -10
 - id: ac_e
   reaction: EX_ac_e
   lower: 0.0
