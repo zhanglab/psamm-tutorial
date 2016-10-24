@@ -27,7 +27,7 @@ compounds:
   lower: 0.0
 - id: glc_D_e
   reaction: EX_glc_e
-  lower: -10.0
+  lower: 0.0
 - id: gln_L_e
   reaction: EX_gln_L_e
   lower: 0.0
