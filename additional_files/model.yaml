@@ -6,7 +6,7 @@ compounds:
 reactions:
 - include: reactions.yaml
 - include: mannitol_pathway.yaml
-media:
-- include: medium.yaml
+exchange:
+- include: exchange.yaml
 limits:
 - include: limits.yaml
