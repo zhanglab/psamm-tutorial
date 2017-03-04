@@ -10,7 +10,7 @@ reactions:
 - include: reactions/periplasm.yaml
 - include: reactions/transporters.yaml
 - include: reactions/extracellular.yaml
-media:
-- include: medium.yaml
+exchange:
+- include: exchange.yaml
 limits:
 - include: limits.yaml
