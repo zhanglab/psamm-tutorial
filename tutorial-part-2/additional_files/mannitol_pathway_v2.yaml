@@ -1,0 +1,11 @@
+- id: MANNIPTS
+  equation: '|manni[e]| + |pep_c[c]| => |pyr_c[c]| + |manni1p[c]|'
+- id: MANNI1PDEH
+  equation: '|manni1p[c]| + |nad_c[c]| => |f6p_c[c]| + |h_c[c]| + |nadh_c[c]|'
+- id: MANNIDEH
+  equation: '|manni[c]| + |nad_c[c]| => |fru_c[c]| + |nadh_c[c]| + |h_c[c]|'
+- id: MANNI1PPHOS
+  equation: '|manni1p[c]| + |h2o_c[c]| => |manni[c]| + |pi_c[c]|'
+- id: FRUKIN
+  equation: '|fru_c[c]| + |atp_c[c]| => |f6p_c[c]| + |adp_c[c]| + |h_c[c]|'
+
