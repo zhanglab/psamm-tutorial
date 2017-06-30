@@ -1,0 +1,18 @@
+name: Ecoli_core_model
+biomass: Biomass_Ecoli_core_w_GAM
+default_flux_limit: 1000.0
+compartments:
+- id: c
+  adjacent_to: e
+  name: Cytoplasm
+- id: e
+  adjacent_to: c
+  name: Extracellular
+compounds:
+- include: compounds.yaml
+reactions:
+- include: reactions.yaml
+exchange:
+- include: exchange.yaml
+model:
+- include: model_def.tsv
