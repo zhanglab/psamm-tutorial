@@ -1,0 +1,4672 @@
+- id: 12DGR120tipp
+  name: 1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C12:0)
+  genes: None
+  equation: 12dgr120[p] => 12dgr120[c]
+  subsystem: Transport, Inner Membrane
+- id: 12DGR140tipp
+  name: 1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C14:0)
+  genes: None
+  equation: 12dgr140[p] => 12dgr140[c]
+  subsystem: Transport, Inner Membrane
+- id: 12DGR141tipp
+  name: 1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C14:1)
+  genes: None
+  equation: 12dgr141[p] => 12dgr141[c]
+  subsystem: Transport, Inner Membrane
+- id: 12DGR160tipp
+  name: 1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C16:0)
+  genes: None
+  equation: 12dgr160[p] => 12dgr160[c]
+  subsystem: Transport, Inner Membrane
+- id: 12DGR161tipp
+  name: 1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C16:1)
+  genes: None
+  equation: 12dgr161[p] => 12dgr161[c]
+  subsystem: Transport, Inner Membrane
+- id: 12DGR180tipp
+  name: 1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C18:0)
+  genes: None
+  equation: 12dgr180[p] => 12dgr180[c]
+  subsystem: Transport, Inner Membrane
+- id: 12DGR181tipp
+  name: 1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C18:1)
+  genes: None
+  equation: 12dgr181[p] => 12dgr181[c]
+  subsystem: Transport, Inner Membrane
+- id: 12PPDRtpp
+  name: (R)-Propane-1,2-diol facilitated transport (periplasm)
+  genes: None
+  equation: 12ppd-R[p] <=> 12ppd-R[c]
+  subsystem: Transport, Inner Membrane
+- id: 12PPDStpp
+  name: (S)-Propane-1,2-diol facilitated transport (periplasm)
+  genes: None
+  equation: 12ppd-S[p] <=> 12ppd-S[c]
+  subsystem: Transport, Inner Membrane
+- id: 23DAPPAt2pp
+  name: 2,3-diaminopropionate transport in via proton symport
+  genes: None
+  equation: 23dappa[p] + h[p] => 23dappa[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: 2AGPEAT120
+  name: 2-acyl-glycerophospho-ethanolamine acyltransferase (n-C12:0)
+  genes: NP_417313.1
+  equation: 2agpe120[c] + atp[c] + ddca[c] => amp[c] + pe120[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPEAT140
+  name: 2-acyl-glycerophospho-ethanolamine acyltransferase (n-C14:0)
+  genes: NP_417313.1
+  equation: 2agpe140[c] + atp[c] + ttdca[c] => amp[c] + pe140[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPEAT141
+  name: 2-acyl-glycerophospho-ethanolamine acyltransferase (n-C14:1)
+  genes: NP_417313.1
+  equation: 2agpe141[c] + atp[c] + ttdcea[c] => amp[c] + pe141[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPEAT160
+  name: 2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:0)
+  genes: NP_417313.1
+  equation: 2agpe160[c] + atp[c] + hdca[c] => amp[c] + pe160[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPEAT161
+  name: 2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:1)
+  genes: NP_417313.1
+  equation: 2agpe161[c] + atp[c] + hdcea[c] => amp[c] + pe161[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPEAT180
+  name: 2-acyl-glycerophospho-ethanolamine acyltransferase (n-C18:0)
+  genes: NP_417313.1
+  equation: 2agpe180[c] + atp[c] + ocdca[c] => amp[c] + pe180[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPEAT181
+  name: 2-acyl-glycerophospho-ethanolamine acyltransferase (n-C18:1)
+  genes: NP_417313.1
+  equation: 2agpe181[c] + atp[c] + ocdcea[c] => amp[c] + pe181[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPGAT120
+  name: 2-acyl-glycerophospho-glycerol acyltransferase (n-C12:0)
+  genes: NP_417313.1
+  equation: 2agpg120[c] + atp[c] + ddca[c] => amp[c] + pg120[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPGAT140
+  name: 2-acyl-glycerophospho-glycerol acyltransferase (n-C14:0)
+  genes: NP_417313.1
+  equation: 2agpg140[c] + atp[c] + ttdca[c] => amp[c] + pg140[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPGAT141
+  name: 2-acyl-glycerophospho-glycerol acyltransferase (n-C14:1)
+  genes: NP_417313.1
+  equation: 2agpg141[c] + atp[c] + ttdcea[c] => amp[c] + pg141[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPGAT160
+  name: 2-acyl-glycerophospho-glycerol acyltransferase (n-C16:0)
+  genes: NP_417313.1
+  equation: 2agpg160[c] + atp[c] + hdca[c] => amp[c] + pg160[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPGAT161
+  name: 2-acyl-glycerophospho-glycerol acyltransferase (n-C16:1)
+  genes: NP_417313.1
+  equation: 2agpg161[c] + atp[c] + hdcea[c] => amp[c] + pg161[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPGAT180
+  name: 2-acyl-glycerophospho-glycerol acyltransferase (n-C18:0)
+  genes: NP_417313.1
+  equation: 2agpg180[c] + atp[c] + ocdca[c] => amp[c] + pg180[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2AGPGAT181
+  name: 2-acyl-glycerophospho-glycerol acyltransferase (n-C18:1)
+  genes: NP_417313.1
+  equation: 2agpg181[c] + atp[c] + ocdcea[c] => amp[c] + pg181[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.40
+- id: 2MAHMP
+  name: 2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphatase
+  genes: NP_415652.1
+  equation: 2mahmp[c] + h2o[c] => 4ampm[c] + h[c] + pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: 3HAD100
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hdecACP[c] => h2o[c] + tdec2eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.60
+- id: 3HAD120
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0)
+  genes: NP_414722.1 or NP_415474.1
+  equation: 3hddecACP[c] => h2o[c] + tddec2eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD121
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1)
+  genes: NP_414722.1 or NP_415474.1
+  equation: 3hcddec5eACP[c] => h2o[c] + t3c5ddeceACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD140
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hmrsACP[c] => h2o[c] + tmrs2eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD141
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hcmrs7eACP[c] => h2o[c] + t3c7mrseACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD160
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hpalmACP[c] => h2o[c] + tpalm2eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD161
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1)
+  genes: NP_414722.1 or NP_415474.1
+  equation: 3hcpalm9eACP[c] => h2o[c] + t3c9palmeACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD180
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hoctaACP[c] => h2o[c] + toctd2eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD181
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hcvac11eACP[c] => h2o[c] + t3c11vaceACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.61
+- id: 3HAD40
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3haACP[c] => but2eACP[c] + h2o[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.58
+- id: 3HAD60
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hhexACP[c] => h2o[c] + thex2eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.58
+- id: 3HAD80
+  name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0)
+  genes: NP_415474.1 or NP_414722.1
+  equation: 3hoctACP[c] => h2o[c] + toct2eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 4.2.1.58
+- id: 3HPPtpp
+  name: 3-hydroxypropionate transport via proton symport (periplasm)
+  genes: None
+  equation: 3hpp[c] + h[c] => 3hpp[p] + h[p]
+  subsystem: Transport, Inner Membrane
+- id: 4HTHRS
+  name: 4-Hydroxy-L-threonine synthase
+  genes: NP_414545.1
+  equation: h2o[c] + phthr[c] => 4hthr[c] + pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: 4PCPpp
+  name: tetrapeptide L,D-carboxypeptidase (periplasm)
+  genes: None
+  equation: LalaDgluMdapDala[p] + h2o[p] => LalaDgluMdap[p] + ala-D[p]
+  subsystem: Murein Recycling
+- id: 5DOAN
+  name: 5'-deoxyadenosine nuclosidase
+  genes: NP_414701.1
+  equation: dad-5[c] + h2o[c] => 5drib[c] + ade[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: 5MTRtpp
+  name: 5-Methylthio-D-ribose transport via proton symport (periplasm)
+  genes: None
+  equation: 5mtr[c] + h[c] => 5mtr[p] + h[p]
+  subsystem: Transport, Inner Membrane
+- id: AACTOOR
+  name: Aminoacetone:oxygen oxidoreductase(deaminating)(flavin-containing)
+  genes: None
+  equation: aact[c] + h2o[c] + o2[c] => h2o2[c] + mthgxl[c] + nh4[c]
+  subsystem: Methylglyoxal Metabolism
+- id: ACGAL1PPpp
+  name: N-acetyl-D-galactosamine 1-phosphatase (periplasm)
+  genes: None
+  equation: acgal1p[p] + h2o[p] => acgal[p] + pi[p]
+  subsystem: Alternate Carbon Metabolism
+  ec: 3.1.3.10
+- id: ACGAM1PPpp
+  name: N-acetyl-D-glucosamine 1-phosphatase (periplasm)
+  genes: None
+  equation: acgam1p[p] + h2o[p] => acgam[p] + pi[p]
+  subsystem: Alternate Carbon Metabolism
+  ec: 3.1.3.10
+- id: ACGK
+  name: acetylglutamate kinase
+  genes: NP_418394.3
+  equation: acglu[c] + atp[c] => acg5p[c] + adp[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 2.7.2.8
+- id: ACGS
+  name: N-acetylglutamate synthase
+  genes: NP_417295.1
+  equation: accoa[c] + glu-L[c] => acglu[c] + coa[c] + h[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 2.3.1.1
+- id: ACM6PH
+  name: N-acetylmuramate 6-phosphate hydrolase
+  genes: NP_416923.1
+  equation: acmum6p[c] + h2o[c] => acgam6p[c] + lac-D[c]
+  subsystem: Alternate Carbon Metabolism
+- id: ACMAMUT
+  name: UDP-N-acetyl-D-mannosaminuronic acid transferase
+  genes: NP_418242.1
+  equation: uacmamu[c] + unaga[c] => h[c] + udp[c] + unagamu[c]
+  subsystem: Cell Envelope Biosynthesis
+- id: ACNML
+  name: N-Acetylneuraminate lyase
+  genes: NP_417692.1
+  equation: acnam[c] => acmana[c] + pyr[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 4.1.3.3
+- id: ACPS1
+  name: acyl-carrier protein synthase
+  genes: NP_417932.1 or NP_417058.1
+  equation: apoACP[c] + coa[c] => ACP[c] + h[c] + pap[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.8.7
+- id: ACt2rpp
+  name: acetate reversible transport via proton symport (periplasm)
+  genes: None
+  equation: ac[p] + h[p] <=> ac[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: ADEt2rpp
+  name: adenine transport via proton symport (reversible) (periplasm)
+  genes: NP_418111.1
+  equation: ade[p] + h[p] <=> ade[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: ADK1
+  name: adenylate kinase
+  genes: NP_415007.1
+  equation: amp[c] + atp[c] <=> (2) adp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.3
+- id: ADK3
+  name: adentylate kinase (GTP)
+  genes: NP_415007.1
+  equation: amp[c] + gtp[c] <=> adp[c] + gdp[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: ADK4
+  name: adentylate kinase (ITP)
+  genes: NP_415007.1
+  equation: amp[c] + itp[c] <=> adp[c] + idp[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: ADMDC
+  name: adenosylmethionine decarboxylase
+  genes: NP_414662.1
+  equation: amet[c] + h[c] => ametam[c] + co2[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 4.1.1.50
+- id: ADNK1
+  name: adenosine kinase
+  genes: NP_415007.1
+  equation: adn[c] + atp[c] => adp[c] + amp[c] + h[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.1.20
+- id: ADPRDP
+  name: ADPribose diphosphatase
+  genes: NP_417856.1
+  equation: adprib[c] + h2o[c] => amp[c] + (2) h[c] + r5p[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.13
+- id: ADPT
+  name: adenine phosphoribosyltransferase
+  genes: NP_415002.1
+  equation: ade[c] + prpp[c] => amp[c] + ppi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.7
+- id: ADSK
+  name: adenylyl-sulfate kinase
+  genes: NP_417230.1
+  equation: aps[c] + atp[c] => adp[c] + h[c] + paps[c]
+  subsystem: Cysteine Metabolism
+  ec: 2.7.1.25
+- id: ADSL1r
+  name: adenylsuccinate lyase
+  genes: NP_415649.1
+  equation: dcamp[c] <=> amp[c] + fum[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 4.3.2.2
+- id: ADSL2r
+  name: adenylosuccinate lyase
+  genes: NP_415649.1
+  equation: 25aics[c] <=> aicar[c] + fum[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 4.3.2.2
+- id: AGM3PA
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide amidase
+  genes: NP_414652.1
+  equation: anhgm3p[c] + h2o[c] => LalaDgluMdap[c] + anhgm[c]
+  subsystem: Murein Recycling
+- id: AGM3Pt2pp
+  name: GlcNAc-anhMurNAc tripeptide transport in via proton symport (periplasm)
+  genes: NP_414967.1
+  equation: anhgm3p[p] + h[p] => anhgm3p[c] + h[c]
+  subsystem: Murein Recycling
+- id: AGM4PA
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide amidase
+  genes: NP_414652.1
+  equation: anhgm4p[c] + h2o[c] => LalaDgluMdapDala[c] + anhgm[c]
+  subsystem: Murein Recycling
+- id: AGM4PCPpp
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide L,D-carboxypeptidase
+    (periplasmic)
+  genes: None
+  equation: anhgm4p[p] + h2o[p] => ala-D[p] + anhgm3p[p]
+  subsystem: Murein Recycling
+- id: AGM4Pt2pp
+  name: GlcNAc-anhMurNAc tetrapeptide transport in via proton symport (periplasm)
+  genes: NP_414967.1
+  equation: anhgm4p[p] + h[p] => anhgm4p[c] + h[c]
+  subsystem: Murein Recycling
+- id: AGMHE
+  name: ADP-D-glycero-D-manno-heptose epimerase
+  genes: NP_418076.1
+  equation: adphep-DD[c] => adphep-LD[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+  ec: 5.1.3.20
+- id: AGMT
+  name: agmatinase
+  genes: NP_417412.1
+  equation: agm[c] + h2o[c] => ptrc[c] + urea[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 3.5.3.11
+- id: AGMt2pp
+  name: GlcNAc-anhMurNAc transport in via proton symport (periplasm)
+  genes: NP_414967.1
+  equation: anhgm[p] + h[p] => anhgm[c] + h[c]
+  subsystem: Murein Recycling
+- id: AGPAT120
+  name: 1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C12:0)
+  genes: NP_417490.1
+  equation: 1ddecg3p[c] + ddcaACP[c] => ACP[c] + pa120[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.51
+- id: AGPAT140
+  name: 1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:0)
+  genes: NP_417490.1
+  equation: 1tdecg3p[c] + myrsACP[c] => ACP[c] + pa140[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.51
+- id: AGPAT141
+  name: 1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:1)
+  genes: NP_417490.1
+  equation: 1tdec7eg3p[c] + tdeACP[c] => ACP[c] + pa141[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.51
+- id: AGPAT160
+  name: 1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0)
+  genes: NP_417490.1
+  equation: 1hdecg3p[c] + palmACP[c] => ACP[c] + pa160[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.51
+- id: AGPAT161
+  name: 1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1)
+  genes: NP_417490.1
+  equation: 1hdec9eg3p[c] + hdeACP[c] => ACP[c] + pa161[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.51
+- id: AGPAT180
+  name: 1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0)
+  genes: NP_417490.1
+  equation: 1odecg3p[c] + ocdcaACP[c] => ACP[c] + pa180[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.51
+- id: AGPAT181
+  name: 1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1)
+  genes: NP_417490.1
+  equation: 1odec11eg3p[c] + octeACP[c] => ACP[c] + pa181[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.3.1.51
+- id: AGPR
+  name: N-acetyl-g-glutamyl-phosphate reductase
+  genes: NP_418393.1
+  equation: acg5sa[c] + nadp[c] + pi[c] <=> acg5p[c] + h[c] + nadph[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 1.2.1.38
+- id: AHCYSNS
+  name: S-adenosylhomocysteine nucleosidase
+  genes: NP_414701.1
+  equation: ahcys[c] + h2o[c] => ade[c] + rhcys[c]
+  subsystem: Methionine Metabolism
+  ec: 3.2.2.9
+- id: AIRC2
+  name: phosphoribosylaminoimidazole carboxylase
+  genes: NP_415055.1
+  equation: air[c] + atp[c] + hco3[c] => 5caiz[c] + adp[c] + h[c] + pi[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+- id: ALAALAr
+  name: D-alanine-D-alanine ligase (reversible)
+  genes: NP_414634.1
+  equation: (2) ala-D[c] + atp[c] <=> adp[c] + alaala[c] + h[c] + pi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.3.2.4
+- id: ALAR
+  name: alanine racemase
+  genes: NP_415708.1
+  equation: ala-L[c] <=> ala-D[c]
+  subsystem: Alanine and Aspartate Metabolism
+  ec: 5.1.1.1
+- id: ALATA_D2
+  name: D-alanine transaminase
+  genes: NP_417046.1
+  equation: ala-D[c] + pydx5p[c] => pyam5p[c] + pyr[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: ALATA_L
+  name: L-alanine transaminase
+  genes: NP_416793.1
+  equation: akg[c] + ala-L[c] <=> glu-L[c] + pyr[c]
+  subsystem: Alanine and Aspartate Metabolism
+  ec: 2.6.1.2
+- id: ALATA_L2
+  name: alanine transaminase
+  genes: NP_417046.1
+  equation: ala-L[c] + pydx5p[c] => pyam5p[c] + pyr[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: ALAt2rpp
+  name: L-alanine reversible transport via proton symport (periplasm)
+  genes: None
+  equation: ala-L[p] + h[p] <=> ala-L[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: ALDD4
+  name: aldehyde dehydrogenase (butanal, NAD)
+  genes: None
+  equation: btal[c] + h2o[c] + nad[c] => but[c] + (2) h[c] + nadh[c]
+  subsystem: Alternate Carbon Metabolism
+- id: ALPATE160pp
+  name: apolipoprotein N-acyltransferase (phosphatidylethanolamine, periplasm)
+  genes: NP_415190.1 and NP_416192.1
+  equation: alpp[p] + pe160[p] => 2agpe160[p] + lpp[p]
+  subsystem: Unassigned
+- id: ALPATG160pp
+  name: apolipoprotein N-acyltransferase (phosphatidylglycerol, periplasm)
+  genes: NP_415190.1 and NP_416192.1
+  equation: alpp[p] + pg160[p] => 2agpg160[p] + lpp[p]
+  subsystem: Unassigned
+- id: AM3PA
+  name: anhydrous-N-Acetylmuramyl-tripeptide amidase
+  genes: NP_414652.1
+  equation: anhm3p[c] + h2o[c] => LalaDgluMdap[c] + anhm[c]
+  subsystem: Murein Recycling
+- id: AM4PA
+  name: anhydrous-N-Acetylmuramyl-tetrapeptide amidase
+  genes: NP_414652.1
+  equation: anhm4p[c] + h2o[c] => LalaDgluMdapDala[c] + anhm[c]
+  subsystem: Murein Recycling
+- id: AMANAPEr
+  name: N-acetylmannosamine 6-phosphate epimerase
+  genes: NP_417690.1
+  equation: acmanap[c] <=> acgam6p[c]
+  subsystem: Alternate Carbon Metabolism
+- id: AMANK
+  name: N-acetyl-D-mannosamine kinase
+  genes: NP_417689.4
+  equation: acmana[c] + atp[c] => acmanap[c] + adp[c] + h[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 2.7.1.60
+- id: AMMQLT8
+  name: S-adenosylmethione:2-demthylmenaquinole methyltransferase (menaquinone 8)
+  genes: YP_026269.1
+  equation: 2dmmql8[c] + amet[c] => ahcys[c] + h[c] + mql8[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: AMPTASECG
+  name: alanyl aminopeptidase (cys-gly)
+  genes: NP_415452.1 or NP_418681.1 or NP_417018.4
+  equation: cgly[c] + h2o[c] => cys-L[c] + gly[c]
+  subsystem: Cysteine Metabolism
+  ec: 3.4.11.2
+- id: AMPTASEPG
+  name: aminopeptidase (pro-gly)
+  genes: NP_418681.1 or NP_417018.4 or NP_415452.1
+  equation: h2o[c] + progly[c] => gly[c] + pro-L[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 3.4.11.2
+- id: AP4AH
+  name: Ap4A hydrolase
+  genes: NP_414591.1
+  equation: ap4a[c] + h2o[c] => (2) adp[c] + (2) h[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.41
+- id: AP5AH
+  name: Ap5A hydrolase
+  genes: NP_414591.1
+  equation: ap5a[c] + h2o[c] => adp[c] + atp[c] + (2) h[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: APCS
+  name: aminopropylcadaverine synthase
+  genes: NP_414663.1
+  equation: 15dap[c] + ametam[c] => 5mta[c] + h[c] + na15dap[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 2.5.1.16
+- id: APRAUR
+  name: 5-amino-6-(5-phosphoribosylamino)uracil reductase
+  genes: NP_414948.1
+  equation: 5apru[c] + h[c] + nadph[c] => 5aprbu[c] + nadp[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 1.1.1.193
+- id: ARBTNR1
+  name: aerobactin reductase
+  genes: None
+  equation: (2) arbtn-fe3[c] + fadh2[c] => (2) arbtn[c] + fad[c] + (2) fe2[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: ARBTNR2
+  name: aerobactin reductase
+  genes: None
+  equation: (2) arbtn-fe3[c] + fmnh2[c] => (2) arbtn[c] + (2) fe2[c] + fmn[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: ARBTNR3
+  name: aerobactin reductase
+  genes: None
+  equation: (2) arbtn-fe3[c] + rbflvrd[c] => (2) arbtn[c] + (2) fe2[c] + (2) h[c]
+    + ribflv[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: ARBTNtex
+  name: aerobactin secretion (to extracellular)
+  genes: None
+  equation: arbtn[p] + h[p] => h[c] + arbtn[e]
+  subsystem: Transport, Outer Membrane
+- id: ARBTNtonex
+  name: aerobactin transport via ton system (extracellular)
+  genes: None
+  equation: arbtn-fe3[e] + h[p] => h[c] + arbtn-fe3[p]
+  subsystem: Transport, Outer Membrane
+- id: ARBTNtpp
+  name: aerobactin secretion (to periplasm)
+  genes: None
+  equation: arbtn[c] + h[p] => h[c] + arbtn[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: ARGTRS
+  name: Arginyl-tRNA synthetase
+  genes: NP_416390.1
+  equation: arg-L[c] + atp[c] + trnaarg[c] => amp[c] + argtrna[c] + ppi[c]
+  subsystem: tRNA Charging
+  ec: 6.1.1.19
+- id: ASNNpp
+  name: L-asparaginase
+  genes: NP_417432.1
+  equation: asn-L[p] + h2o[p] => asp-L[p] + nh4[p]
+  subsystem: Alanine and Aspartate Metabolism
+  ec: 3.5.1.1
+- id: ASNTRS
+  name: Asparaginyl-tRNA synthetase
+  genes: NP_415450.1
+  equation: asn-L[c] + atp[c] + trnaasn[c] => amp[c] + asntrna[c] + ppi[c]
+  subsystem: tRNA Charging
+  ec: 6.1.1.22
+- id: ASNabcpp
+  name: L-asparagine transport via ABC system (periplasm)
+  genes: None
+  equation: atp[c] + h2o[c] + asn-L[p] => adp[c] + asn-L[c] + h[c] + pi[c]
+  subsystem: Transport, Inner Membrane
+- id: ASPCT
+  name: aspartate carbamoyltransferase
+  genes: (NP_418665.1 and NP_418666.1) or NP_418666.1
+  equation: asp-L[c] + cbp[c] => cbasp[c] + h[c] + pi[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 2.1.3.2
+- id: ASPK
+  name: aspartate kinase
+  genes: NP_418448.1
+  equation: asp-L[c] + atp[c] <=> 4pasp[c] + adp[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 2.7.2.4
+- id: ASPt2_2pp
+  name: Aspartate transport via proton symport (2 H) (periplasm)
+  genes: NP_417985.1
+  equation: asp-L[p] + (2) h[p] => asp-L[c] + (2) h[c]
+  subsystem: Transport, Inner Membrane
+- id: ASPt2pp
+  name: L-aspartate transport in via proton symport (periplasm)
+  genes: NP_418501.1
+  equation: asp-L[p] + h[p] => asp-L[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: ASPt2rpp
+  name: L-aspartate transport in via proton symport (periplasm) reversible
+  genes: None
+  equation: asp-L[p] + h[p] <=> asp-L[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: ATPM
+  name: ATP maintenance requirement
+  genes: None
+  equation: atp[c] + h2o[c] => adp[c] + h[c] + pi[c]
+  subsystem: Unassigned
+- id: BMOGDS1
+  name: bis-molybdopterin guanine dinucleotide synthase (single GDP)
+  genes: NP_418294.1 or (NP_418294.1 and -)
+  equation: bmoco[c] + gtp[c] + h[c] => bmoco1gdp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: BMOGDS2
+  name: bis-molybdopterin guanine dinucleotide synthase
+  genes: NP_418294.1 or (NP_418294.1 and -)
+  equation: bmoco1gdp[c] + gtp[c] + h[c] => bmocogdp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: BPNT
+  name: 3',5'-bisphosphate nucleotidase
+  genes: NP_418635.1
+  equation: h2o[c] + pap[c] => amp[c] + pi[c]
+  subsystem: Cysteine Metabolism
+  ec: 3.1.3.7
+- id: BTNt2ipp
+  name: Biotin transport via proton symport (periplasm)
+  genes: None
+  equation: btn[p] + h[p] => btn[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: BWCOGDS1
+  name: tungsten bispterin guanine dinucleotide synthase (single GDP)
+  genes: NP_418294.1 or (NP_418294.1 and -)
+  equation: bwco[c] + gtp[c] + h[c] => bwco1gdp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: BWCOGDS2
+  name: tungsten bispterin guanine dinucleotide synthase
+  genes: NP_418294.1 or (NP_418294.1 and -)
+  equation: bwco1gdp[c] + gtp[c] + h[c] => bwcogdp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: CCGS
+  name: 7-cyano-7-carbaguanine synthase
+  genes: NP_414978.1
+  equation: atp[c] + cdg[c] + nh4[c] => adp[c] + h[c] + h2o[c] + pi[c] + preq0[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: CD2t3pp
+  name: cadmium (Cd+2) transport out via proton antiport (periplasm)
+  genes: NP_418350.1
+  equation: cd2[c] + h[p] => h[c] + cd2[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: CDAPPA120
+  name: CDP-Diacylglycerol pyrophostatase (n-C12:0)
+  genes: NP_418353.1
+  equation: cdpdddecg[c] + h2o[c] => cmp[c] + (2) h[c] + pa120[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.6.1.26
+- id: CDAPPA140
+  name: CDP-Diacylglycerol pyrophostatase (n-C14:0)
+  genes: NP_418353.1
+  equation: cdpdtdecg[c] + h2o[c] => cmp[c] + (2) h[c] + pa140[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.6.1.26
+- id: CDAPPA141
+  name: CDP-Diacylglycerol pyrophostatase (n-C14:1)
+  genes: NP_418353.1
+  equation: cdpdtdec7eg[c] + h2o[c] => cmp[c] + (2) h[c] + pa141[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.6.1.26
+- id: CDAPPA160
+  name: CDP-Diacylglycerol pyrophostatase (n-C16:0)
+  genes: NP_418353.1
+  equation: cdpdhdecg[c] + h2o[c] => cmp[c] + (2) h[c] + pa160[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.6.1.26
+- id: CDAPPA161
+  name: CDP-Diacylglycerol pyrophostatase (n-C16:1)
+  genes: NP_418353.1
+  equation: cdpdhdec9eg[c] + h2o[c] => cmp[c] + (2) h[c] + pa161[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.6.1.26
+- id: CDAPPA180
+  name: CDP-Diacylglycerol pyrophostatase (n-C18:0)
+  genes: NP_418353.1
+  equation: cdpdodecg[c] + h2o[c] => cmp[c] + (2) h[c] + pa180[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.6.1.26
+- id: CDAPPA181
+  name: CDP-Diacylglycerol pyrophostatase (n-C18:1)
+  genes: NP_418353.1
+  equation: cdpdodec11eg[c] + h2o[c] => cmp[c] + (2) h[c] + pa181[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.6.1.26
+- id: CDGS
+  name: 7-deaza-7-carboxyguanine synthase
+  genes: None
+  equation: cph4[c] + h[c] => cdg[c] + nh4[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: CHORM
+  name: chorismate mutase
+  genes: NP_417090.1 or NP_417091.1
+  equation: chor[c] => pphn[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 5.4.99.5
+- id: CHRPL
+  name: Chorismate pyruvate lyase
+  genes: NP_418463.4
+  equation: chor[c] => 4hbz[c] + pyr[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: CITt3pp
+  name: citrate transport out via proton antiport (periplasm)
+  genes: None
+  equation: cit[c] + h[p] => h[c] + cit[p]
+  subsystem: Transport, Inner Membrane
+- id: CLPNH120pp
+  name: cardiolipin hydrolase (periplasm, n-C12:0)
+  genes: None
+  equation: clpn120[p] + h2o[p] => h[p] + pa120[p] + pg120[p]
+  subsystem: Glycerophospholipid Metabolism
+- id: CLPNH140pp
+  name: cardiolipin hydrolase (periplasm, n-C14:0)
+  genes: None
+  equation: clpn140[p] + h2o[p] => h[p] + pa140[p] + pg140[p]
+  subsystem: Glycerophospholipid Metabolism
+- id: CLPNH141pp
+  name: cardiolipin hydrolase (periplasm, n-C14:1)
+  genes: None
+  equation: clpn141[p] + h2o[p] => h[p] + pa141[p] + pg141[p]
+  subsystem: Glycerophospholipid Metabolism
+- id: CLPNH160pp
+  name: cardiolipin hydrolase (periplasm, n-C16:0)
+  genes: None
+  equation: clpn160[p] + h2o[p] => h[p] + pa160[p] + pg160[p]
+  subsystem: Glycerophospholipid Metabolism
+- id: CLPNH161pp
+  name: cardiolipin hydrolase (periplasm, n-C16:1)
+  genes: None
+  equation: clpn161[p] + h2o[p] => h[p] + pa161[p] + pg161[p]
+  subsystem: Glycerophospholipid Metabolism
+- id: CLPNH180pp
+  name: cardiolipin hydrolase (periplasm, n-C18:0)
+  genes: None
+  equation: clpn180[p] + h2o[p] => h[p] + pa180[p] + pg180[p]
+  subsystem: Glycerophospholipid Metabolism
+- id: CLPNH181pp
+  name: cardiolipin hydrolase (periplasm, n-C18:1)
+  genes: None
+  equation: clpn181[p] + h2o[p] => h[p] + pa181[p] + pg181[p]
+  subsystem: Glycerophospholipid Metabolism
+- id: CLt3_2pp
+  name: chloride transport out via proton antiport (2:1) (periplasm)
+  genes: NP_414697.1
+  equation: h[c] + (2) cl[p] => (2) cl[c] + h[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: CMPN
+  name: CMP nucleosidase
+  genes: None
+  equation: cmp[c] + h2o[c] => csn[c] + r5p[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.2.2.10
+- id: COBALT2t3pp
+  name: cobalt (Co+2) transport out via proton antiport (periplasm)
+  genes: NP_418350.1
+  equation: cobalt2[c] + h[p] => h[c] + cobalt2[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: COBALT2tpp
+  name: cobalt transport in via permease (no H+)
+  genes: NP_418260.1
+  equation: cobalt2[p] => cobalt2[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: COLIPAabcpp
+  name: core oligosaccharide lipid A transport via ABC system (periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + colipa[c] + h2o[c] => adp[c] + h[c] + pi[c] + colipa[p]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: CPGNR1
+  name: coprogen(Fe(III)) reductase
+  genes: None
+  equation: (2) cpgn[c] + fadh2[c] => (2) cpgn-un[c] + fad[c] + (2) fe2[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: CPGNR2
+  name: coprogen(Fe(III)) reductase
+  genes: None
+  equation: (2) cpgn[c] + fmnh2[c] => (2) cpgn-un[c] + (2) fe2[c] + fmn[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: CPGNR3
+  name: coprogen(Fe(III)) reductase
+  genes: None
+  equation: (2) cpgn[c] + rbflvrd[c] => (2) cpgn-un[c] + (2) fe2[c] + (2) h[c] +
+    ribflv[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: CPGNUtex
+  name: coprogen unloaded secretion (extracellular)
+  genes: None
+  equation: cpgn-un[p] + h[p] => h[c] + cpgn-un[e]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: CPGNUtpp
+  name: coprogen unloaded secretion
+  genes: None
+  equation: cpgn-un[c] + h[p] => h[c] + cpgn-un[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: CPH4S
+  name: 6-carboxy-5,6,7,8-tetrahydropterin synthase
+  genes: NP_417245.1
+  equation: ahdt[c] + h2o[c] => acald[c] + cph4[c] + h[c] + pppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: CTECOAI6
+  name: 3-cis-2-trans-enoyl-CoA isomerase
+  genes: NP_418288.1
+  equation: tdecoa[c] <=> td2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 5.3.3.8
+- id: CTECOAI7
+  name: 3-cis-2-trans-enoyl-CoA isomerase
+  genes: NP_418288.1
+  equation: hdcoa[c] <=> hdd2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 5.3.3.8
+- id: CTECOAI8
+  name: 3-cis-2-trans-enoyl-CoA isomerase
+  genes: NP_418288.1
+  equation: odecoa[c] <=> od2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 5.3.3.8
+- id: CTPS2
+  name: CTP synthase (glutamine)
+  genes: NP_417260.1
+  equation: atp[c] + gln-L[c] + h2o[c] + utp[c] => adp[c] + ctp[c] + glu-L[c] + (2)
+    h[c] + pi[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 6.3.4.2
+- id: CYANST
+  name: Cyanide sulfurtransferase
+  genes: NP_417883.1
+  equation: cyan[c] + tsul[c] => h[c] + so3[c] + tcynt[c]
+  subsystem: Unassigned
+  ec: 2.8.1.1
+- id: CYSDabcpp
+  name: D-cysteine uptake via ABC system (periplasm)
+  genes: None
+  equation: atp[c] + h2o[c] + cys-D[p] => adp[c] + cys-D[c] + h[c] + pi[c]
+  subsystem: Transport, Inner Membrane
+- id: CYSS
+  name: cysteine synthase
+  genes: NP_416909.1 or NP_416916.1
+  equation: acser[c] + h2s[c] => ac[c] + cys-L[c] + h[c]
+  subsystem: Cysteine Metabolism
+- id: CYSSADS
+  name: L-cysteine sulfinic acid desulfurase
+  genes: NP_417290.1
+  equation: 3sala[c] + (2) h[c] => ala-L[c] + so2[c]
+  subsystem: Cysteine Metabolism
+  ec: 4.1.1.12
+- id: CYSabcpp
+  name: L-cysteine uptake via ABC system (periplasm)
+  genes: None
+  equation: atp[c] + h2o[c] + cys-L[p] => adp[c] + cys-L[c] + h[c] + pi[c]
+  subsystem: Transport, Inner Membrane
+- id: CYTBO3_4pp
+  name: 'cytochrome oxidase bo3 (ubiquinol-8: 4 protons) (periplasm)'
+  genes: NP_414963.1 and NP_414964.1 and NP_414965.1 and NP_414966.1
+  equation: (4) h[c] + (0.5) o2[c] + q8h2[c] => h2o[c] + q8[c] + (4) h[p]
+  subsystem: Oxidative Phosphorylation
+- id: CYTD
+  name: cytidine deaminase
+  genes: NP_416648.1
+  equation: cytd[c] + h[c] + h2o[c] => nh4[c] + uri[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.5.4.5
+- id: CYTDK2
+  name: cytidine kinase (GTP)
+  genes: NP_416570.2
+  equation: cytd[c] + gtp[c] => cmp[c] + gdp[c] + h[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: CYTK1
+  name: cytidylate kinase (CMP)
+  genes: NP_415430.1
+  equation: atp[c] + cmp[c] <=> adp[c] + cdp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.14
+- id: CYTK2
+  name: cytidylate kinase (dCMP)
+  genes: NP_415430.1
+  equation: atp[c] + dcmp[c] <=> adp[c] + dcdp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.14
+- id: DADK
+  name: deoxyadenylate kinase
+  genes: NP_415007.1
+  equation: atp[c] + damp[c] <=> adp[c] + dadp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.11
+- id: DAGK120
+  name: diacylglycerol kinase (n-C12:0)
+  genes: NP_418466.1
+  equation: 12dgr120[c] + atp[c] => adp[c] + h[c] + pa120[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.1.107
+- id: DAGK140
+  name: diacylglycerol kinase (n-C14:0)
+  genes: NP_418466.1
+  equation: 12dgr140[c] + atp[c] => adp[c] + h[c] + pa140[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.1.107
+- id: DAGK141
+  name: diacylglycerol kinase (n-C14:1)
+  genes: NP_418466.1
+  equation: 12dgr141[c] + atp[c] => adp[c] + h[c] + pa141[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.1.107
+- id: DAGK160
+  name: diacylglycerol kinase (n-C16:0)
+  genes: NP_418466.1
+  equation: 12dgr160[c] + atp[c] => adp[c] + h[c] + pa160[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.1.107
+- id: DAGK161
+  name: diacylglycerol kinase (n-C16:1)
+  genes: NP_418466.1
+  equation: 12dgr161[c] + atp[c] => adp[c] + h[c] + pa161[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.1.107
+- id: DAGK180
+  name: diacylglycerol kinase (n-C18:0)
+  genes: NP_418466.1
+  equation: 12dgr180[c] + atp[c] => adp[c] + h[c] + pa180[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.1.107
+- id: DAGK181
+  name: diacylglycerol kinase (n-C18:1)
+  genes: NP_418466.1
+  equation: 12dgr181[c] + atp[c] => adp[c] + h[c] + pa181[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.1.107
+- id: DAPDC
+  name: diaminopimelate decarboxylase
+  genes: NP_417315.1
+  equation: 26dap-M[c] + h[c] => co2[c] + lys-L[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 4.1.1.20
+- id: DAPE
+  name: diaminopimelate epimerase
+  genes: NP_418254.2
+  equation: 26dap-LL[c] <=> 26dap-M[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 5.1.1.7
+- id: DAPabcpp
+  name: M-diaminopimelic acid ABC transport (periplasm)
+  genes: None
+  equation: atp[c] + h2o[c] + 26dap-M[p] => 26dap-M[c] + adp[c] + h[c] + pi[c]
+  subsystem: Transport, Inner Membrane
+- id: DASYN120
+  name: CDP-diacylglycerol synthetase (n-C12:0)
+  genes: NP_414717.2
+  equation: ctp[c] + h[c] + pa120[c] => cdpdddecg[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.7.41
+- id: DASYN140
+  name: CDP-diacylglycerol synthetase (n-C14:0)
+  genes: NP_414717.2
+  equation: ctp[c] + h[c] + pa140[c] => cdpdtdecg[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.7.41
+- id: DASYN141
+  name: CDP-diacylglycerol synthetase (n-C14:1)
+  genes: NP_414717.2
+  equation: ctp[c] + h[c] + pa141[c] => cdpdtdec7eg[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.7.41
+- id: DASYN160
+  name: CDP-diacylglycerol synthetase (n-C16:0)
+  genes: NP_414717.2
+  equation: ctp[c] + h[c] + pa160[c] => cdpdhdecg[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.7.41
+- id: DASYN161
+  name: CDP-diacylglycerol synthetase (n-C16:1)
+  genes: NP_414717.2
+  equation: ctp[c] + h[c] + pa161[c] => cdpdhdec9eg[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.7.41
+- id: DASYN180
+  name: CDP-diacylglycerol synthetase (n-C18:0)
+  genes: NP_414717.2
+  equation: ctp[c] + h[c] + pa180[c] => cdpdodecg[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.7.41
+- id: DASYN181
+  name: CDP-diacylglycerol synthetase (n-C18:1)
+  genes: NP_414717.2
+  equation: ctp[c] + h[c] + pa181[c] => cdpdodec11eg[c] + ppi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.7.41
+- id: DB4PS
+  name: 3,4-Dihydroxy-2-butanone-4-phosphate synthase
+  genes: NP_417513.1
+  equation: ru5p-D[c] => db4p[c] + for[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: DCTPD
+  name: dCTP deaminase
+  genes: NP_416569.1
+  equation: dctp[c] + h[c] + h2o[c] => dutp[c] + nh4[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.5.4.13
+- id: DCYTD
+  name: deoxycytidine deaminase
+  genes: NP_416648.1
+  equation: dcyt[c] + h[c] + h2o[c] => duri[c] + nh4[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.5.4.14
+- id: DDGLK
+  name: 2-dehydro-3-deoxygluconokinase
+  genes: NP_417983.2
+  equation: 2ddglcn[c] + atp[c] => 2ddg6p[c] + adp[c] + h[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 2.7.1.45
+- id: DDPA
+  name: 3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase
+  genes: NP_415275.1
+  equation: e4p[c] + h2o[c] + pep[c] => 2dda7p[c] + pi[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 4.1.2.15
+- id: DHAtpp
+  name: Dihydroxyacetone transport via facilitated diffusion (periplasm)
+  genes: None
+  equation: dha[p] <=> dha[c]
+  subsystem: Transport, Inner Membrane
+- id: DHBD
+  name: 2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase
+  genes: NP_415128.1
+  equation: 23ddhb[c] + nad[c] <=> 23dhb[c] + h[c] + nadh[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 1.3.1.28
+- id: DHBSH
+  name: 2,3-dihydroxybenzoylserine hydrolase
+  genes: None
+  equation: 23dhbzs[c] + h2o[c] => 23dhb[c] + ser-L[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: DHDPS
+  name: dihydrodipicolinate synthase
+  genes: NP_416973.1
+  equation: aspsa[c] + pyr[c] => 23dhdp[c] + h[c] + (2) h2o[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 4.2.1.52
+- id: DHFR
+  name: dihydrofolate reductase
+  genes: NP_414590.1
+  equation: dhf[c] + h[c] + nadph[c] <=> nadp[c] + thf[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 1.5.1.3
+- id: DHFS
+  name: dihydrofolate synthase
+  genes: NP_416818.1
+  equation: atp[c] + dhpt[c] + glu-L[c] => adp[c] + dhf[c] + h[c] + pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 6.3.2.12
+- id: DHNCOAS
+  name: 1,4-dihydroxy-2-napthoyl-CoA synthase
+  genes: NP_416765.1
+  equation: h[c] + sbzcoa[c] => 14dhncoa[c] + h2o[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: DHNPA2r
+  name: dihydroneopterin aldolase reversible
+  genes: NP_417530.2
+  equation: dhnpt[c] <=> 6hmhpt[c] + gcald[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 4.1.2.25
+- id: DHNPTE
+  name: Dihydroneopterin epimerase
+  genes: NP_417530.2
+  equation: dhnpt[c] <=> dhmpt[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: DHORD2
+  name: dihydoorotic acid dehydrogenase (quinone8)
+  genes: NP_415465.1
+  equation: dhor-S[c] + q8[c] => orot[c] + q8h2[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 1.3.3.1
+- id: DHORD5
+  name: dihydroorotic acid (menaquinone-8)
+  genes: NP_415465.1
+  equation: dhor-S[c] + mqn8[c] => mql8[c] + orot[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 1.3.3.1
+- id: DHORDfum
+  name: Fumarate dependent DHORD
+  genes: None
+  equation: dhor-S[c] + fum[c] => orot[c] + succ[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+- id: DHPPDA2
+  name: diaminohydroxyphosphoribosylaminopryrimidine deaminase (25drapp)
+  genes: NP_414948.1
+  equation: 25drapp[c] + h[c] + h2o[c] => 5apru[c] + nh4[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.5.4.26
+- id: DMQMT
+  name: 3-Dimethylubiquinonol 3-methyltransferase
+  genes: NP_416735.1
+  equation: 2omhmbl[c] + amet[c] => ahcys[c] + h[c] + q8h2[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: DM_4CRSOL
+  name: Sink needed to allow p-Cresol to leave system
+  genes: None
+  equation: 4crsol[c] =>
+- id: DM_5DRIB
+  name: Sink needed to allow 5'-deoxyribose to leave system
+  genes: None
+  equation: 5drib[c] =>
+- id: DM_AACALD
+  name: Sink needed to allow aminoacetaldehyde to leave system
+  genes: None
+  equation: aacald[c] =>
+- id: DM_AMOB
+  name: Sink needed to allow S-Adenosyl-4-methylthio-2-oxobutanoate to leave system
+  genes: None
+  equation: amob[c] =>
+- id: DM_MTHTHF
+  name: Sink needed to allow (2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran
+    to leave system
+  genes: None
+  equation: mththf[c] =>
+- id: DM_OXAM
+  name: Sink needed to allow oxamate to leave system
+  genes: None
+  equation: oxam[c] =>
+- id: DNMPPA
+  name: Dihydroneopterin monophosphate dephosphorylase
+  genes: None
+  equation: dhpmp[c] + h2o[c] => dhnpt[c] + pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: DNTPPA
+  name: Dihydroneopterin triphosphate pyrophosphatase
+  genes: NP_416379.1
+  equation: ahdt[c] + h2o[c] => dhpmp[c] + h[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: DPCOAK
+  name: dephospho-CoA kinase
+  genes: NP_414645.1
+  equation: atp[c] + dpcoa[c] => adp[c] + coa[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.1.24
+- id: DPR
+  name: 2-dehydropantoate 2-reductase
+  genes: NP_418222.1
+  equation: 2dhp[c] + h[c] + nadph[c] => nadp[c] + pant-R[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 1.1.1.169
+- id: DRPA
+  name: deoxyribose-phosphate aldolase
+  genes: NP_418798.1
+  equation: 2dr5p[c] => acald[c] + g3p[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 4.1.2.4
+- id: DSBCGT
+  name: DsbC:glutathione thiotransferase
+  genes: NP_417369.1
+  equation: dsbcox[p] + (2) gthrd[p] => dsbcrd[p] + gthox[p]
+  subsystem: Unassigned
+- id: DURIPP
+  name: deoxyuridine phosphorylase
+  genes: NP_418801.1
+  equation: duri[c] + pi[c] <=> 2dr1p[c] + ura[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: DUTPDP
+  name: dUTP diphosphatase
+  genes: NP_418097.1
+  equation: dutp[c] + h2o[c] => dump[c] + h[c] + ppi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.23
+- id: DXPS
+  name: 1-deoxy-D-xylulose 5-phosphate synthase
+  genes: NP_414954.1
+  equation: g3p[c] + h[c] + pyr[c] => co2[c] + dxyl5p[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: ECAtpp
+  name: enterobacterial common antigen transferase (flippase, cytoplasm to periplasm)
+  genes: NP_418239.1
+  equation: unagamuf[c] => unagamuf[p]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: ECOAH1
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxybutanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3hbcoa[c] <=> b2coa[c] + h2o[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: ECOAH2
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxyhexanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3hhcoa[c] <=> h2o[c] + hx2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: ECOAH3
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxyoctanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3hocoa[c] <=> h2o[c] + oc2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: ECOAH4
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxydecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3hdcoa[c] <=> dc2coa[c] + h2o[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: ECOAH5
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3hddcoa[c] <=> dd2coa[c] + h2o[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: ECOAH6
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxytetradecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3htdcoa[c] <=> h2o[c] + td2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: ECOAH7
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxyhexadecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3hhdcoa[c] <=> h2o[c] + hdd2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: ECOAH8
+  name: 3-hydroxyacyl-CoA dehydratase (3-hydroxyoctadecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3hodcoa[c] <=> h2o[c] + od2coa[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 4.2.1.17
+- id: EDD
+  name: 6-phosphogluconate dehydratase
+  genes: NP_416365.1
+  equation: 6pgc[c] => 2ddg6p[c] + h2o[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 4.2.1.12
+- id: EDTXS3
+  name: Endotoxin Synthesis (palmitoleoyl ACP)
+  genes: NP_416879.4
+  equation: hdeACP[c] + kdo2lipid4[c] => ACP[c] + kdo2lipid4p[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: ENO
+  name: enolase
+  genes: NP_417259.1
+  equation: 2pg[c] <=> h2o[c] + pep[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 4.2.1.11
+- id: ETHAt2pp
+  name: ethanolamine transport in via proton symport
+  genes: None
+  equation: etha[p] + h[p] => etha[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: Ec_biomass_iJO1366_WT_53p95M
+  name: E. coli biomass objective function (iJO1366) - WT - with 53.95 GAM estimate
+  genes: None
+  equation:
+    reversible: false
+    left:
+    - id: 10fthf
+      compartment: c
+      value: 0.000223
+    - id: 2dmmql8
+      compartment: c
+      value: 0.000223
+    - id: 2fe2s
+      compartment: c
+      value: 0.000025
+    - id: 4fe4s
+      compartment: c
+      value: 0.000248
+    - id: 5mthf
+      compartment: c
+      value: 0.000223
+    - id: accoa
+      compartment: c
+      value: 0.000279
+    - id: adocbl
+      compartment: c
+      value: 0.000223
+    - id: ala-L
+      compartment: c
+      value: 0.499149
+    - id: amet
+      compartment: c
+      value: 0.000223
+    - id: arg-L
+      compartment: c
+      value: 0.28742
+    - id: asn-L
+      compartment: c
+      value: 0.234232
+    - id: asp-L
+      compartment: c
+      value: 0.234232
+    - id: atp
+      compartment: c
+      value: 54.119975
+    - id: bmocogdp
+      compartment: c
+      value: 0.000116
+    - id: btn
+      compartment: c
+      value: 0.000002
+    - id: ca2
+      compartment: c
+      value: 0.004952
+    - id: chor
+      compartment: c
+      value: 0.000223
+    - id: cl
+      compartment: c
+      value: 0.004952
+    - id: coa
+      compartment: c
+      value: 0.000168
+    - id: cobalt2
+      compartment: c
+      value: 0.000024
+    - id: ctp
+      compartment: c
+      value: 0.129799
+    - id: cu2
+      compartment: c
+      value: 0.000674
+    - id: cys-L
+      compartment: c
+      value: 0.088988
+    - id: datp
+      compartment: c
+      value: 0.024805
+    - id: dctp
+      compartment: c
+      value: 0.025612
+    - id: dgtp
+      compartment: c
+      value: 0.025612
+    - id: dttp
+      compartment: c
+      value: 0.024805
+    - id: enter
+      compartment: c
+      value: 0.000223
+    - id: fad
+      compartment: c
+      value: 0.000223
+    - id: fe2
+      compartment: c
+      value: 0.006388
+    - id: fe3
+      compartment: c
+      value: 0.007428
+    - id: gln-L
+      compartment: c
+      value: 0.255712
+    - id: glu-L
+      compartment: c
+      value: 0.255712
+    - id: gly
+      compartment: c
+      value: 0.595297
+    - id: glycogen
+      compartment: c
+      value: 0.154187
+    - id: gthrd
+      compartment: c
+      value: 0.000223
+    - id: gtp
+      compartment: c
+      value: 0.209121
+    - id: h2o
+      compartment: c
+      value: 48.752916
+    - id: hemeO
+      compartment: c
+      value: 0.000223
+    - id: his-L
+      compartment: c
+      value: 0.092056
+    - id: ile-L
+      compartment: c
+      value: 0.282306
+    - id: k
+      compartment: c
+      value: 0.18569
+    - id: leu-L
+      compartment: c
+      value: 0.437778
+    - id: lipopb
+      compartment: c
+      value: 0.000003
+    - id: lys-L
+      compartment: c
+      value: 0.333448
+    - id: malcoa
+      compartment: c
+      value: 0.000031
+    - id: met-L
+      compartment: c
+      value: 0.149336
+    - id: mg2
+      compartment: c
+      value: 0.008253
+    - id: mlthf
+      compartment: c
+      value: 0.000223
+    - id: mn2
+      compartment: c
+      value: 0.000658
+    - id: mobd
+      compartment: c
+      value: 0.000007
+    - id: mococdp
+      compartment: c
+      value: 0.000007
+    - id: mocogdp
+      compartment: c
+      value: 0.000007
+    - id: mql8
+      compartment: c
+      value: 0.000223
+    - id: nad
+      compartment: c
+      value: 0.001787
+    - id: nadh
+      compartment: c
+      value: 0.000045
+    - id: nadp
+      compartment: c
+      value: 0.000112
+    - id: nadph
+      compartment: c
+      value: 0.000335
+    - id: nh4
+      compartment: c
+      value: 0.012379
+    - id: ni2
+      compartment: c
+      value: 0.000307
+    - id: pe160
+      compartment: c
+      value: 0.012366
+    - id: pe161
+      compartment: c
+      value: 0.009618
+    - id: pe181
+      compartment: c
+      value: 0.004957
+    - id: pg160
+      compartment: c
+      value: 0.005707
+    - id: pg161
+      compartment: c
+      value: 0.004439
+    - id: pg181
+      compartment: c
+      value: 0.002288
+    - id: phe-L
+      compartment: c
+      value: 0.180021
+    - id: pheme
+      compartment: c
+      value: 0.000223
+    - id: pro-L
+      compartment: c
+      value: 0.214798
+    - id: ptrc
+      compartment: c
+      value: 0.03327
+    - id: pydx5p
+      compartment: c
+      value: 0.000223
+    - id: q8h2
+      compartment: c
+      value: 0.000223
+    - id: ribflv
+      compartment: c
+      value: 0.000223
+    - id: ser-L
+      compartment: c
+      value: 0.209684
+    - id: sheme
+      compartment: c
+      value: 0.000223
+    - id: so4
+      compartment: c
+      value: 0.004126
+    - id: spmd
+      compartment: c
+      value: 0.006744
+    - id: succoa
+      compartment: c
+      value: 0.000098
+    - id: thf
+      compartment: c
+      value: 0.000223
+    - id: thmpp
+      compartment: c
+      value: 0.000223
+    - id: thr-L
+      compartment: c
+      value: 0.246506
+    - id: trp-L
+      compartment: c
+      value: 0.055234
+    - id: tyr-L
+      compartment: c
+      value: 0.133993
+    - id: udcpdp
+      compartment: c
+      value: 0.000055
+    - id: utp
+      compartment: c
+      value: 0.140101
+    - id: val-L
+      compartment: c
+      value: 0.411184
+    - id: zn2
+      compartment: c
+      value: 0.000324
+    - id: colipa
+      compartment: e
+      value: 0.008151
+    - id: clpn160
+      compartment: p
+      value: 0.002944
+    - id: clpn161
+      compartment: p
+      value: 0.00229
+    - id: clpn181
+      compartment: p
+      value: 0.00118
+    - id: murein3p3p
+      compartment: p
+      value: 0.001345
+    - id: murein3px4p
+      compartment: p
+      value: 0.000605
+    - id: murein4p4p
+      compartment: p
+      value: 0.005381
+    - id: murein4px4p
+      compartment: p
+      value: 0.005448
+    - id: murein4px4px4p
+      compartment: p
+      value: 0.000673
+    - id: pe160
+      compartment: p
+      value: 0.031798
+    - id: pe161
+      compartment: p
+      value: 0.024732
+    - id: pe181
+      compartment: p
+      value: 0.012747
+    - id: pg160
+      compartment: p
+      value: 0.004892
+    - id: pg161
+      compartment: p
+      value: 0.003805
+    - id: pg181
+      compartment: p
+      value: 0.001961
+    right:
+    - id: adp
+      compartment: c
+      value: 53.95
+    - id: h
+      compartment: c
+      value: 53.95
+    - id: pi
+      compartment: c
+      value: 53.945874
+    - id: ppi
+      compartment: c
+      value: 0.749831
+- id: Ec_biomass_iJO1366_core_53p95M
+  name: E. coli biomass objective function (iJO1366) - core - with 53.95 GAM estimate
+  genes: None
+  equation:
+    reversible: false
+    left:
+    - id: 10fthf
+      compartment: c
+      value: 0.000223
+    - id: 2fe2s
+      compartment: c
+      value: 0.000026
+    - id: 2ohph
+      compartment: c
+      value: 0.000223
+    - id: 4fe4s
+      compartment: c
+      value: 0.00026
+    - id: ala-L
+      compartment: c
+      value: 0.513689
+    - id: amet
+      compartment: c
+      value: 0.000223
+    - id: arg-L
+      compartment: c
+      value: 0.295792
+    - id: asn-L
+      compartment: c
+      value: 0.241055
+    - id: asp-L
+      compartment: c
+      value: 0.241055
+    - id: atp
+      compartment: c
+      value: 54.124831
+    - id: bmocogdp
+      compartment: c
+      value: 0.000122
+    - id: btn
+      compartment: c
+      value: 0.000002
+    - id: ca2
+      compartment: c
+      value: 0.005205
+    - id: cl
+      compartment: c
+      value: 0.005205
+    - id: coa
+      compartment: c
+      value: 0.000576
+    - id: cobalt2
+      compartment: c
+      value: 0.000025
+    - id: ctp
+      compartment: c
+      value: 0.133508
+    - id: cu2
+      compartment: c
+      value: 0.000709
+    - id: cys-L
+      compartment: c
+      value: 0.09158
+    - id: datp
+      compartment: c
+      value: 0.026166
+    - id: dctp
+      compartment: c
+      value: 0.027017
+    - id: dgtp
+      compartment: c
+      value: 0.027017
+    - id: dttp
+      compartment: c
+      value: 0.026166
+    - id: fad
+      compartment: c
+      value: 0.000223
+    - id: fe2
+      compartment: c
+      value: 0.006715
+    - id: fe3
+      compartment: c
+      value: 0.007808
+    - id: gln-L
+      compartment: c
+      value: 0.26316
+    - id: glu-L
+      compartment: c
+      value: 0.26316
+    - id: gly
+      compartment: c
+      value: 0.612638
+    - id: gtp
+      compartment: c
+      value: 0.215096
+    - id: h2o
+      compartment: c
+      value: 48.601527
+    - id: his-L
+      compartment: c
+      value: 0.094738
+    - id: ile-L
+      compartment: c
+      value: 0.290529
+    - id: k
+      compartment: c
+      value: 0.195193
+    - id: leu-L
+      compartment: c
+      value: 0.450531
+    - id: lys-L
+      compartment: c
+      value: 0.343161
+    - id: met-L
+      compartment: c
+      value: 0.153686
+    - id: mg2
+      compartment: c
+      value: 0.008675
+    - id: mlthf
+      compartment: c
+      value: 0.000223
+    - id: mn2
+      compartment: c
+      value: 0.000691
+    - id: mobd
+      compartment: c
+      value: 0.000007
+    - id: nad
+      compartment: c
+      value: 0.001831
+    - id: nadp
+      compartment: c
+      value: 0.000447
+    - id: nh4
+      compartment: c
+      value: 0.013013
+    - id: ni2
+      compartment: c
+      value: 0.000323
+    - id: pe160
+      compartment: c
+      value: 0.017868
+    - id: pe161
+      compartment: c
+      value: 0.054154
+    - id: phe-L
+      compartment: c
+      value: 0.185265
+    - id: pheme
+      compartment: c
+      value: 0.000223
+    - id: pro-L
+      compartment: c
+      value: 0.221055
+    - id: pydx5p
+      compartment: c
+      value: 0.000223
+    - id: ribflv
+      compartment: c
+      value: 0.000223
+    - id: ser-L
+      compartment: c
+      value: 0.215792
+    - id: sheme
+      compartment: c
+      value: 0.000223
+    - id: so4
+      compartment: c
+      value: 0.004338
+    - id: thf
+      compartment: c
+      value: 0.000223
+    - id: thmpp
+      compartment: c
+      value: 0.000223
+    - id: thr-L
+      compartment: c
+      value: 0.253687
+    - id: trp-L
+      compartment: c
+      value: 0.056843
+    - id: tyr-L
+      compartment: c
+      value: 0.137896
+    - id: udcpdp
+      compartment: c
+      value: 0.000055
+    - id: utp
+      compartment: c
+      value: 0.144104
+    - id: val-L
+      compartment: c
+      value: 0.423162
+    - id: zn2
+      compartment: c
+      value: 0.000341
+    - id: kdo2lipid4
+      compartment: e
+      value: 0.019456
+    - id: murein5px4p
+      compartment: p
+      value: 0.013894
+    - id: pe160
+      compartment: p
+      value: 0.045946
+    - id: pe161
+      compartment: p
+      value: 0.02106
+    right:
+    - id: adp
+      compartment: c
+      value: 53.95
+    - id: h
+      compartment: c
+      value: 53.95
+    - id: pi
+      compartment: c
+      value: 53.945662
+    - id: ppi
+      compartment: c
+      value: 0.773903
+- id: FACOAL100t2pp
+  name: fatty-acid-CoA ligase (decanoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + dca[p] + h[p] => amp[c] + dcacoa[c] + h[c] + ppi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL120t2pp
+  name: fatty-acid-CoA ligase (dodecanoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + ddca[p] + h[p] => amp[c] + ddcacoa[c] + h[c] + ppi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL140t2pp
+  name: fatty-acid-CoA ligase (tetradecanoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + ttdca[p] => amp[c] + h[c] + ppi[c] + tdcoa[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL141t2pp
+  name: fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + ttdcea[p] => amp[c] + h[c] + ppi[c] + tdecoa[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL160t2pp
+  name: fatty-acid-CoA ligase (hexadecanoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + hdca[p] => amp[c] + h[c] + pmtcoa[c] + ppi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL161t2pp
+  name: fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + hdcea[p] => amp[c] + h[c] + hdcoa[c] + ppi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL180t2pp
+  name: fatty-acid-CoA ligase (octadecanoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + ocdca[p] => amp[c] + h[c] + ppi[c] + stcoa[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL181t2pp
+  name: fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + ocdcea[p] => amp[c] + h[c] + odecoa[c] + ppi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL60t2pp
+  name: fatty-acid-CoA ligase (hexanoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + hxa[p] => amp[c] + h[c] + hxcoa[c] + ppi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FACOAL80t2pp
+  name: fatty-acid-CoA ligase (octanoate transport via vectoral Co-A coupling)
+  genes: NP_416319.1
+  equation: atp[c] + coa[c] + h[p] + octa[p] => amp[c] + h[c] + occoa[c] + ppi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.2.1.3
+- id: FADRx
+  name: FAD reductase
+  genes: NP_418286.1
+  equation: fad[c] + h[c] + nadh[c] => fadh2[c] + nad[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: FBA
+  name: fructose-bisphosphate aldolase
+  genes: NP_416600.4
+  equation: fdp[c] <=> dhap[c] + g3p[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 4.1.2.13
+- id: FCLT
+  name: Ferrochelatase
+  genes: NP_415008.1
+  equation: fe2[c] + ppp9[c] => (2) h[c] + pheme[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 4.99.1.1
+- id: FE2t3pp
+  name: iron (Fe+2) transport out via proton antiport (periplasm)
+  genes: NP_418350.1
+  equation: fe2[c] + h[p] => h[c] + fe2[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FE3DHBZR
+  name: release of Fe(III) from ferric 2,3-dihydroxybenzoylserine
+  genes: None
+  equation: fe3dhbzs[c] => 23dhbzs[c] + fe3[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FE3HOXR1
+  name: Fe(III)hydroxamate reductase
+  genes: None
+  equation: fadh2[c] + (2) fe3hox[c] => fad[c] + (2) fe2[c] + (2) fe3hox-un[c] +
+    (2) h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FE3HOXR2
+  name: Fe(III)hydroxamate reductase
+  genes: None
+  equation: (2) fe3hox[c] + fmnh2[c] => (2) fe2[c] + (2) fe3hox-un[c] + fmn[c] +
+    (2) h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FE3HOXR3
+  name: Fe(III)hydroxamate reductase
+  genes: None
+  equation: (2) fe3hox[c] + rbflvrd[c] => (2) fe2[c] + (2) fe3hox-un[c] + (2) h[c]
+    + ribflv[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FE3HOXUtex
+  name: Fe(III)hydroxamate unloaded secretion
+  genes: None
+  equation: fe3hox-un[c] + h[p] => h[c] + fe3hox-un[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FE3HOXUtpp
+  name: Fe(III)hydroxamate unloaded secretion (extracellular)
+  genes: None
+  equation: fe3hox-un[p] + h[p] => h[c] + fe3hox-un[e]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FE3Ri
+  name: Fe(III) reduction
+  genes: NP_418286.1
+  equation: fadh2[c] + (2) fe3[c] => fad[c] + (2) fe2[c] + (2) h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: FE3abcpp
+  name: iron (III) transport via ABC system (periplasm to cytoplasm)
+  genes: None
+  equation: atp[c] + h2o[c] + fe3[p] => adp[c] + fe3[c] + h[c] + pi[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FECRMR1
+  name: Ferrichrome reductase
+  genes: None
+  equation: fadh2[c] + (2) fecrm[c] => fad[c] + (2) fe2[c] + (2) fecrm-un[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FECRMR2
+  name: Ferrichrome reductase
+  genes: None
+  equation: (2) fecrm[c] + fmnh2[c] => (2) fe2[c] + (2) fecrm-un[c] + fmn[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FECRMR3
+  name: Ferrichrome reductase
+  genes: None
+  equation: (2) fecrm[c] + rbflvrd[c] => (2) fe2[c] + (2) fecrm-un[c] + (2) h[c]
+    + ribflv[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FECRMUtex
+  name: ferrichrome (minus Fe) secretion (to extracellular)
+  genes: None
+  equation: fecrm-un[p] + h[p] => h[c] + fecrm-un[e]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FECRMUtpp
+  name: ferrichrome (minus Fe) secretion (to periplasm)
+  genes: None
+  equation: fecrm-un[c] + h[p] => h[c] + fecrm-un[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FEENTERR1
+  name: Fe-enterobactin reduction (Fe(III)-unloading)
+  genes: None
+  equation: fadh2[c] + (2) feenter[c] => (2) enter[c] + fad[c] + (2) fe2[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FEENTERR2
+  name: Fe-enterobactin reduction (Fe(III)-unloading)
+  genes: None
+  equation: (2) feenter[c] + fmnh2[c] => (2) enter[c] + (2) fe2[c] + fmn[c] + (2)
+    h[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FEENTERR3
+  name: Fe-enterobactin reduction (Fe(III)-unloading)
+  genes: None
+  equation: (2) feenter[c] + rbflvrd[c] => (2) enter[c] + (2) fe2[c] + (2) h[c] +
+    ribflv[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FEOXAMUtex
+  name: ferroxamine (minus Fe3) secretion (to extracellular)
+  genes: None
+  equation: feoxam-un[p] + h[p] => h[c] + feoxam-un[e]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FEOXAMUtpp
+  name: ferroxamine (minus Fe3) secretion (to periplasm)
+  genes: None
+  equation: feoxam-un[c] + h[p] => h[c] + feoxam-un[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: FFSD
+  name: beta-fructofuranosidase
+  genes: None
+  equation: h2o[c] + suc6p[c] => fru[c] + g6p[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 3.2.1.26
+- id: FLVR
+  name: flavin reductase
+  genes: NP_418286.1 or (- and NP_417244.1)
+  equation: h[c] + nadph[c] + ribflv[c] => nadp[c] + rbflvrd[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 1.5.1.30
+- id: FLVRx
+  name: flavin reductase (NAD)
+  genes: NP_418286.1
+  equation: h[c] + nadh[c] + ribflv[c] => nad[c] + rbflvrd[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 1.5.1.30
+- id: FMETTRS
+  name: Methionyl-tRNA formyltransferase
+  genes: NP_417746.1
+  equation: 10fthf[c] + mettrna[c] => fmettrna[c] + h[c] + thf[c]
+  subsystem: tRNA Charging
+  ec: 2.1.2.9
+- id: FMNAT
+  name: FMN adenylyltransferase
+  genes: NP_414566.1
+  equation: atp[c] + fmn[c] + h[c] => fad[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.7.2
+- id: FMNRx
+  name: FMN reductase
+  genes: NP_415457.1 or NP_418286.1
+  equation: fmn[c] + h[c] + nadh[c] => fmnh2[c] + nad[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: FMNRx2
+  name: FMN reductase
+  genes: NP_418286.1 or NP_415457.1 or (- and NP_417244.1)
+  equation: fmn[c] + h[c] + nadph[c] => fmnh2[c] + nadp[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: FRUK
+  name: fructose-1-phosphate kinase
+  genes: NP_416673.1
+  equation: atp[c] + f1p[c] => adp[c] + fdp[c] + h[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 2.7.1.56
+- id: FTHFLi
+  name: formate-tetrahydrofolate ligase
+  genes: None
+  equation: atp[c] + for[c] + thf[c] => 10fthf[c] + adp[c] + pi[c]
+  subsystem: Folate Metabolism
+  ec: 6.3.4.3
+- id: FUM
+  name: fumarase
+  genes: NP_416129.1
+  equation: fum[c] + h2o[c] <=> mal-L[c]
+  subsystem: Citric Acid Cycle
+  ec: 4.2.1.2
+- id: FUMt2_2pp
+  name: Fumarate transport via proton symport (2 H) (periplasm)
+  genes: NP_417985.1
+  equation: fum[p] + (2) h[p] => fum[c] + (2) h[c]
+  subsystem: Transport, Inner Membrane
+- id: G1SAT
+  name: glutamate-1-semialdehyde aminotransferase
+  genes: NP_414696.1
+  equation: glu1sa[c] <=> 5aop[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 5.4.3.8
+- id: G2PP
+  name: glycerol-2-phosphate phosphatase
+  genes: NP_417028.1
+  equation: glyc2p[c] + h2o[c] => glyc[c] + pi[c]
+  subsystem: Alternate Carbon Metabolism
+- id: G6PDA
+  name: glucosamine-6-phosphate deaminase
+  genes: NP_415204.1
+  equation: gam6p[c] + h2o[c] => f6p[c] + nh4[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 3.5.99.6
+- id: GARFT
+  name: phosphoribosylglycinamide formyltransferase
+  genes: NP_416995.1
+  equation: 10fthf[c] + gar[c] <=> fgam[c] + h[c] + thf[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 2.1.2.2
+- id: GDPDPK
+  name: GDP diphosphokinase
+  genes: NP_418107.1
+  equation: atp[c] + gdp[c] => amp[c] + h[c] + ppgpp[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: GDPMNP
+  name: GDP-mannose phyrophosphatase
+  genes: NP_416962.1
+  equation: gdpmann[c] + h2o[c] => gmp[c] + (2) h[c] + man1p[c]
+  subsystem: Cell Envelope Biosynthesis
+- id: GDPTPDP
+  name: guanosine 3'-diphosphate 5'-triphosphate 3'-diphosphatase
+  genes: NP_418107.1
+  equation: gdptp[c] + h2o[c] => gtp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.1.7.2
+- id: GF6PTA
+  name: glutamine-fructose-6-phosphate transaminase
+  genes: NP_418185.1
+  equation: f6p[c] + gln-L[c] => gam6p[c] + glu-L[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 2.6.1.16
+- id: GHMT2r
+  name: glycine hydroxymethyltransferase, reversible
+  genes: NP_417046.1
+  equation: ser-L[c] + thf[c] <=> gly[c] + h2o[c] + mlthf[c]
+  subsystem: Glycine and Serine Metabolism
+  ec: 2.1.2.1
+- id: GLCRAL
+  name: 5-dehydro-4-deoxyglucarate aldolase
+  genes: NP_417595.1
+  equation: 5dh4dglc[c] => 2h3oppan[c] + pyr[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 4.1.2.20
+- id: GLCS1
+  name: glycogen synthase (ADPGlc)
+  genes: NP_417887.1
+  equation: adpglc[c] => adp[c] + glycogen[c] + h[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.4.1.21
+- id: GLCTR1
+  name: glucosyltransferase I (LPS core synthesis)
+  genes: NP_418088.1
+  equation: icolipa[c] + udpg[c] => gicolipa[c] + h[c] + udp[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: GLNTRS
+  name: Glutaminyl-tRNA synthetase
+  genes: NP_415206.1
+  equation: atp[c] + gln-L[c] + trnagln[c] => amp[c] + glntrna[c] + ppi[c]
+  subsystem: tRNA Charging
+  ec: 6.1.1.18
+- id: GLUDy
+  name: glutamate dehydrogenase (NADP)
+  genes: NP_416275.1
+  equation: glu-L[c] + h2o[c] + nadp[c] <=> akg[c] + h[c] + nadph[c] + nh4[c]
+  subsystem: Glutamate Metabolism
+  ec: 1.4.1.4
+- id: GLUNpp
+  name: glutaminase
+  genes: NP_417432.1
+  equation: gln-L[p] + h2o[p] => glu-L[p] + nh4[p]
+  subsystem: Glutamate Metabolism
+  ec: 3.5.1.2
+- id: GLUR
+  name: glutamate racemase
+  genes: NP_418402.2
+  equation: glu-D[c] <=> glu-L[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 5.1.1.3
+- id: GLUt2rpp
+  name: L-glutamate transport via proton symport, reversible (periplasm)
+  genes: NP_418501.1
+  equation: glu-L[p] + h[p] <=> glu-L[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: GLUt4pp
+  name: Na+/glutamate symport (periplasm)
+  genes: NP_418110.1
+  equation: glu-L[p] + na1[p] => glu-L[c] + na1[c]
+  subsystem: Transport, Inner Membrane
+- id: GLYAT
+  name: glycine C-acetyltransferase
+  genes: NP_418074.1
+  equation: accoa[c] + gly[c] <=> 2aobut[c] + coa[c]
+  subsystem: Glycine and Serine Metabolism
+  ec: 2.3.1.29
+- id: GLYOX3
+  name: glyoxalase III
+  genes: None
+  equation: h2o[c] + mthgxl[c] => h[c] + lac-D[c]
+  subsystem: Methylglyoxal Metabolism
+- id: GLYTRS
+  name: Glycyl-tRNA synthetase
+  genes: NP_418016.1 and NP_418017.1
+  equation: atp[c] + gly[c] + trnagly[c] => amp[c] + glytrna[c] + ppi[c]
+  subsystem: tRNA Charging
+  ec: 6.1.1.14
+- id: GLYt2rpp
+  name: glycine reversible transport via proton symport (periplasm)
+  genes: None
+  equation: gly[p] + h[p] <=> gly[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: GMHEPAT
+  name: D-glycero-D-manno-hepose 1-phosphate adenyltransferase
+  genes: NP_417524.1
+  equation: atp[c] + gmhep1p[c] + h[c] => adphep-DD[c] + ppi[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: GMHEPK
+  name: D-glycero-D-manno-heptose 7-phosphate kinase
+  genes: NP_417524.1
+  equation: atp[c] + gmhep7p[c] => adp[c] + gmhep17bp[c] + h[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: GNK
+  name: gluconokinase
+  genes: NP_417894.2
+  equation: atp[c] + glcn[c] => 6pgc[c] + adp[c] + h[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 2.7.1.12
+- id: GP4GH
+  name: Gp4G hydrolase
+  genes: NP_414591.1
+  equation: gp4g[c] + h2o[c] => (2) gdp[c] + (2) h[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: GPDDA1
+  name: Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)
+  genes: NP_417906.1
+  equation: g3pc[c] + h2o[c] => chol[c] + glyc3p[c] + h[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.4.46
+- id: GPDDA2
+  name: Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine)
+  genes: NP_417906.1
+  equation: g3pe[c] + h2o[c] => etha[c] + glyc3p[c] + h[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.4.46
+- id: GPDDA3
+  name: Glycerophosphodiester phosphodiesterase (Glycerophosphoserine)
+  genes: NP_417906.1
+  equation: g3ps[c] + h2o[c] => glyc3p[c] + h[c] + ser-L[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.4.46
+- id: GPDDA4
+  name: Glycerophosphodiester phosphodiesterase (Glycerophosphoglycerol)
+  genes: NP_417906.1
+  equation: g3pg[c] + h2o[c] => glyc[c] + glyc3p[c] + h[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.4.46
+- id: GPDDA5
+  name: Glycerophosphodiester phosphodiesterase (Glycerophosphoinositol)
+  genes: NP_417906.1
+  equation: g3pi[c] + h2o[c] => glyc3p[c] + h[c] + inost[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.4.46
+- id: GRXR
+  name: glutaredoxin reductase
+  genes: NP_418067.1 or NP_416171.1
+  equation: grxox[c] + (2) gthrd[c] => grxrd[c] + gthox[c]
+  subsystem: Unassigned
+  ec: 1.8.4.2
+- id: GSNK
+  name: guanosine kinase
+  genes: NP_415010.1
+  equation: atp[c] + gsn[c] => adp[c] + gmp[c] + h[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: GTPCI
+  name: GTP cyclohydrolase I
+  genes: NP_416658.1
+  equation: gtp[c] + h2o[c] => ahdt[c] + for[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.5.4.16
+- id: GUACYC
+  name: guanylate cyclase
+  genes: None
+  equation: gtp[c] => 35cgmp[c] + ppi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 4.6.1.2
+- id: GUAt2pp
+  name: guanine transport in via proton symport (periplasm)
+  genes: NP_418111.1
+  equation: gua[p] + h[p] => gua[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: GUAtpp
+  name: Guanine transport via diffusion (periplasm)
+  genes: None
+  equation: gua[p] <=> gua[c]
+  subsystem: Transport, Inner Membrane
+- id: GUR1PPpp
+  name: Glucuronate 1-phosphate phosphatase (periplasm)
+  genes: None
+  equation: glcur1p[p] + h2o[p] => glcur[p] + pi[p]
+  subsystem: Alternate Carbon Metabolism
+- id: H2Otex
+  name: H2O transport via diffusion (extracellular to periplasm)
+  genes: NP_415477.1
+  equation: h2o[e] <=> h2o[p]
+  subsystem: Transport, Outer Membrane Porin
+- id: H2SO
+  name: Hydrogen sulfide oxidation
+  genes: None
+  equation: h2s[c] + (2) o2[c] => (2) h[c] + so4[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: HACD1
+  name: 3-hydroxyacyl-CoA dehydrogenase (acetoacetyl-CoA)
+  genes: NP_418288.1
+  equation: aacoa[c] + h[c] + nadh[c] <=> 3hbcoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HACD2
+  name: 3-hydroxyacyl-CoA dehydrogenase (3-oxohexanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3ohcoa[c] + h[c] + nadh[c] <=> 3hhcoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HACD3
+  name: 3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3oocoa[c] + h[c] + nadh[c] <=> 3hocoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HACD4
+  name: 3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3odcoa[c] + h[c] + nadh[c] <=> 3hdcoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HACD5
+  name: 3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3oddcoa[c] + h[c] + nadh[c] <=> 3hddcoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HACD6
+  name: 3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3otdcoa[c] + h[c] + nadh[c] <=> 3htdcoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HACD7
+  name: 3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA)
+  genes: NP_418288.1
+  equation: 3ohdcoa[c] + h[c] + nadh[c] <=> 3hhdcoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HACD8
+  name: 3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA), peroxisomal
+  genes: NP_418288.1
+  equation: 3oodcoa[c] + h[c] + nadh[c] <=> 3hodcoa[c] + nad[c]
+  subsystem: Membrane Lipid Metabolism
+  ec: 1.1.1.35
+- id: HBZOPT
+  name: Hydroxybenzoate octaprenyltransferase
+  genes: NP_418464.1
+  equation: 4hbz[c] + octdp[c] => 3ophb[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: HCO3E
+  name: HCO3 equilibration reaction
+  genes: NP_414668.1
+  equation: co2[c] + h2o[c] <=> h[c] + hco3[c]
+  subsystem: Unassigned
+  ec: 4.2.1.1
+- id: HEMEOS
+  name: Heme O synthase
+  genes: NP_414962.1
+  equation: frdp[c] + h2o[c] + pheme[c] => hemeO[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: HEPK1
+  name: LPS heptose kinase I (LPS core synthesis)
+  genes: NP_418087.1
+  equation: atp[c] + hhlipa[c] => adp[c] + h[c] + phhlipa[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: HEPT2
+  name: heptosyltransferase II (LPS core synthesis)
+  genes: NP_418077.1
+  equation: adphep-LD[c] + hlipa[c] => adp[c] + h[c] + hhlipa[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: HETZK
+  name: hydroxyethylthiazole kinase
+  genes: NP_416607.1
+  equation: 4mhetz[c] + atp[c] => 4mpetz[c] + adp[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.1.50
+- id: HEX1
+  name: hexokinase (D-glucose:ATP)
+  genes: NP_416889.1
+  equation: atp[c] + glc-D[c] => adp[c] + g6p[c] + h[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.1
+- id: HEX4
+  name: hexokinase (D-mannose:ATP)
+  genes: None
+  equation: atp[c] + man[c] => adp[c] + h[c] + man6p[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 2.7.1.7
+- id: HG2t3pp
+  name: mercury (Hg+2) transport out via proton antiport (periplasm)
+  genes: NP_418350.1
+  equation: hg2[c] + h[p] => h[c] + hg2[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: HISTRS
+  name: Histidyl-tRNA synthetase
+  genes: NP_417009.1
+  equation: atp[c] + his-L[c] + trnahis[c] => amp[c] + histrna[c] + ppi[c]
+  subsystem: tRNA Charging
+  ec: 6.1.1.21
+- id: HMBS
+  name: hydroxymethylbilane synthase
+  genes: YP_026260.1
+  equation: h2o[c] + (4) ppbng[c] => hmbil[c] + (4) nh4[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 4.3.1.8
+- id: HMPK1
+  name: hydroxymethylpyrimidine kinase (ATP)
+  genes: NP_416606.1
+  equation: 4ahmmp[c] + atp[c] => 4ampm[c] + adp[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.1.49
+- id: HPPK2
+  name: 6-hydroxymethyl-dihydropterin pyrophosphokinase
+  genes: NP_414684.1
+  equation: 6hmhpt[c] + atp[c] => 6hmhptpp[c] + amp[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.6.3
+- id: HSK
+  name: homoserine kinase
+  genes: NP_414544.1
+  equation: atp[c] + hom-L[c] => adp[c] + h[c] + phom[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 2.7.1.39
+- id: HSST
+  name: homoserine O-succinyltransferase
+  genes: NP_418437.1
+  equation: hom-L[c] + succoa[c] => coa[c] + suchms[c]
+  subsystem: Methionine Metabolism
+  ec: 2.3.1.46
+- id: HYPOE
+  name: hypothetical enyme
+  genes: None
+  equation: h2o[c] + pyam5p[c] => pi[c] + pydam[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: HYXNtpp
+  name: Hypoxanthine transport (periplasm)
+  genes: None
+  equation: hxan[p] <=> hxan[c]
+  subsystem: Transport, Inner Membrane
+- id: I2FE2SR
+  name: ISC [2Fe-2S] regeneration
+  genes: YP_026169.1 and NP_417024.1
+  equation: 2fe1s[c] + iscssh[c] + iscu[c] => (4) h[c] + iscs[c] + iscu-2fe2s[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: I2FE2SS
+  name: ISC [2Fe-2S] Synthesis
+  genes: NP_418251.1 and YP_026169.1 and NP_417024.1
+  equation: fadh2[c] + (2) fe2[c] + (2) iscssh[c] + iscu[c] => fad[c] + (6) h[c]
+    + (2) iscs[c] + iscu-2fe2s[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: I2FE2SS2
+  name: ISC [2Fe-2S] Synthesis II
+  genes: NP_418251.1 and YP_026169.1 and NP_417024.1
+  equation: fadh2[c] + (2) fe2[c] + (2) iscssh[c] + iscu-2fe2s[c] => fad[c] + (6)
+    h[c] + (2) iscs[c] + iscu-2fe2s2[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: I2FE2ST
+  name: ISC [2Fe-2S] Transfer
+  genes: NP_417023.1 and NP_417024.1
+  equation: (4) h[c] + iscu-2fe2s[c] => 2fe2s[c] + iscu[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: I4FE4SR
+  name: ISC [4Fe-4S] Reduction
+  genes: NP_417024.1
+  equation: fadh2[c] + (2) h[c] + iscu-2fe2s2[c] => fad[c] + iscu-4fe4s[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: I4FE4ST
+  name: ISC [4Fe-4S] Transfer
+  genes: NP_417023.1 and NP_417024.1
+  equation: (4) h[c] + iscu-4fe4s[c] => 4fe4s[c] + iscu[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: ICDHyr
+  name: isocitrate dehydrogenase (NADP)
+  genes: NP_415654.1
+  equation: icit[c] + nadp[c] <=> akg[c] + co2[c] + nadph[c]
+  subsystem: Citric Acid Cycle
+  ec: 1.1.1.42
+- id: ICHORS
+  name: isochorismate synthase
+  genes: NP_416768.4
+  equation: chor[c] <=> ichor[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 5.4.99.6
+- id: ICL
+  name: Isocitrate lyase
+  genes: NP_418439.1
+  equation: icit[c] => glx[c] + succ[c]
+  subsystem: Anaplerotic Reactions
+  ec: 4.1.3.1
+- id: ICYSDS
+  name: ISC Cysteine desulfuration
+  genes: YP_026169.1
+  equation: cys-L[c] + iscs[c] => ala-L[c] + iscssh[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: ILEt2rpp
+  name: L-isoleucine reversible transport via proton symport (periplasm)
+  genes: NP_414935.1
+  equation: h[p] + ile-L[p] <=> h[c] + ile-L[c]
+  subsystem: Transport, Inner Membrane
+- id: INSK
+  name: insosine kinase
+  genes: NP_415010.1
+  equation: atp[c] + ins[c] => adp[c] + h[c] + imp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.1.73
+- id: K2L4Aabcpp
+  name: KDO(2)-lipid IV A transport via ABC system (periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + kdo2lipid4[c] => adp[c] + h[c] + pi[c] + kdo2lipid4[p]
+  subsystem: Transport, Inner Membrane
+- id: KARA1
+  name: ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)
+  genes: NP_418222.1
+  equation: 23dhmb[c] + nadp[c] <=> alac-S[c] + h[c] + nadph[c]
+  subsystem: Valine, Leucine, and Isoleucine Metabolism
+  ec: 1.1.1.86
+- id: KARA2
+  name: ketol-acid reductoisomerase (2-Acetolactate)
+  genes: NP_418222.1
+  equation: 2ahbut[c] + h[c] + nadph[c] <=> 23dhmp[c] + nadp[c]
+  subsystem: Valine, Leucine, and Isoleucine Metabolism
+  ec: 1.1.1.86
+- id: KDOCT2
+  name: 3-deoxy-manno-octulosonate cytidylyltransferase
+  genes: NP_415438.1
+  equation: ctp[c] + kdo[c] => ckdo[c] + ppi[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+  ec: 2.7.7.38
+- id: KDOPP
+  name: 3-deoxy-manno-octulosonate-8-phosphatase
+  genes: NP_417665.1
+  equation: h2o[c] + kdo8p[c] => kdo[c] + pi[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+  ec: 3.1.3.45
+- id: KDOPS
+  name: 3-deoxy -D-manno-octulosonic -acid 8-phosphate synthase
+  genes: NP_415733.1
+  equation: ara5p[c] + h2o[c] + pep[c] => kdo8p[c] + pi[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+  ec: 4.1.2.16
+- id: LALADGLUtpp
+  name: L-alanyl-D-glutamate transport in via proton symport (periplasm)
+  genes: NP_416151.1
+  equation: LalaDglu[p] + h[p] => LalaDglu[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: LALALGLUtpp
+  name: L-alanyl-L-glutamate transport in via proton symport (periplasm)
+  genes: NP_416151.1
+  equation: LalaLglu[p] + h[p] => LalaLglu[c] + h[c]
+  subsystem: Transport, Inner Membrane
+- id: LALDO3
+  name: L-Lactaldehyde:NADP+ 1-oxidoreductase
+  genes: None
+  equation: h[c] + mthgxl[c] + nadph[c] => lald-L[c] + nadp[c]
+  subsystem: Methylglyoxal Metabolism
+  ec: 1.1.1.21
+- id: LCARR
+  name: lacaldehyde reductase (R-propane-1,2-diol forming)
+  genes: None
+  equation: h[c] + lald-D[c] + nadh[c] <=> 12ppd-R[c] + nad[c]
+  subsystem: Methylglyoxal Metabolism
+  ec: 1.1.1.77
+- id: LCARS
+  name: lacaldehyde reductase (S-propane-1,2-diol forming)
+  genes: NP_417279.2
+  equation: h[c] + lald-L[c] + nadh[c] <=> 12ppd-S[c] + nad[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 1.1.1.77
+- id: LEUTAi
+  name: leucine transaminase (irreversible)
+  genes: NP_418478.1
+  equation: 4mop[c] + glu-L[c] => akg[c] + leu-L[c]
+  subsystem: Valine, Leucine, and Isoleucine Metabolism
+  ec: 2.6.1.42
+- id: LEUt2rpp
+  name: L-leucine reversible transport via proton symport (periplasm)
+  genes: NP_414935.1
+  equation: h[p] + leu-L[p] <=> h[c] + leu-L[c]
+  subsystem: Transport, Inner Membrane
+- id: LGTHL
+  name: lactoylglutathione lyase
+  genes: NP_416168.1
+  equation: gthrd[c] + mthgxl[c] => lgt-S[c]
+  subsystem: Methylglyoxal Metabolism
+  ec: 4.4.1.5
+- id: LIPACabcpp
+  name: lipid (cold) A transport via ABC system (periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + lipa_cold[c] => adp[c] + h[c] + pi[c] + lipa_cold[p]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: LIPAabcpp
+  name: lipid A transport via ABC system (periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + lipa[c] => adp[c] + h[c] + pi[c] + lipa[p]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: LIPOCT
+  name: Lipoyl(octanoyl) transferase
+  genes: NP_415163.2
+  equation: h[c] + ocACP[c] => ACP[c] + octapb[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: LIPOS
+  name: Lipoate synthase
+  genes: NP_415161.1
+  equation:
+    reversible: false
+    left:
+    - id: 4fe4s
+      compartment: c
+      value: 1
+    - id: amet
+      compartment: c
+      value: 2
+    - id: h
+      compartment: c
+      value: 1
+    - id: nad
+      compartment: c
+      value: 1
+    - id: octapb
+      compartment: c
+      value: 1
+    right:
+    - id: 2fe2s
+      compartment: c
+      value: 1
+    - id: dad-5
+      compartment: c
+      value: 2
+    - id: fe2
+      compartment: c
+      value: 2
+    - id: lipopb
+      compartment: c
+      value: 1
+    - id: met-L
+      compartment: c
+      value: 2
+    - id: nadh
+      compartment: c
+      value: 1
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: LIPOt2pp
+  name: Lipoate transport via proton symport (periplasm)
+  genes: None
+  equation: h[p] + lipoate[p] => h[c] + lipoate[c]
+  subsystem: Transport, Inner Membrane
+- id: LPLIPAL2A120
+  name: Lysophospholipase L2 (2-acylglycerophosphotidate, n-C12:0)
+  genes: YP_026266.1
+  equation: 2ddecg3p[c] + h2o[c] => ddca[c] + glyc3p[c] + (2) h[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2A140
+  name: Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:0)
+  genes: YP_026266.1
+  equation: 2tdecg3p[c] + h2o[c] => glyc3p[c] + (2) h[c] + ttdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2A141
+  name: Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:1)
+  genes: YP_026266.1
+  equation: 2tdec7eg3p[c] + h2o[c] => glyc3p[c] + (2) h[c] + ttdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2A160
+  name: Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:0)
+  genes: YP_026266.1
+  equation: 2hdecg3p[c] + h2o[c] => glyc3p[c] + (2) h[c] + hdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2A161
+  name: Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:1)
+  genes: YP_026266.1
+  equation: 2hdec9eg3p[c] + h2o[c] => glyc3p[c] + (2) h[c] + hdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2A180
+  name: Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:0)
+  genes: YP_026266.1
+  equation: 2odecg3p[c] + h2o[c] => glyc3p[c] + (2) h[c] + ocdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2A181
+  name: Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:1)
+  genes: YP_026266.1
+  equation: 2odec11eg3p[c] + h2o[c] => glyc3p[c] + (2) h[c] + ocdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2ATE120
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine,
+    n-C12:0)
+  genes: YP_026266.1
+  equation: 2agpe120[c] + pg120[c] => apg120[c] + g3pe[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATE140
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine,
+    n-C14:0)
+  genes: YP_026266.1
+  equation: 2agpe140[c] + pg140[c] => apg140[c] + g3pe[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATE141
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine,
+    n-C14:1)
+  genes: YP_026266.1
+  equation: 2agpe141[c] + pg141[c] => apg141[c] + g3pe[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATE160
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine,
+    n-C16:0)
+  genes: YP_026266.1
+  equation: 2agpe160[c] + pg160[c] => apg160[c] + g3pe[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATE161
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine,
+    n-C16:1)
+  genes: YP_026266.1
+  equation: 2agpe161[c] + pg161[c] => apg161[c] + g3pe[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATE180
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine,
+    n-C18:0)
+  genes: YP_026266.1
+  equation: 2agpe180[c] + pg180[c] => apg180[c] + g3pe[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATE181
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine,
+    n-C18:1)
+  genes: YP_026266.1
+  equation: 2agpe181[c] + pg181[c] => apg181[c] + g3pe[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATG120
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C12:0)
+  genes: YP_026266.1
+  equation: 2agpg120[c] + pg120[c] => apg120[c] + g3pg[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATG140
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C14:0)
+  genes: YP_026266.1
+  equation: 2agpg140[c] + pg140[c] => apg140[c] + g3pg[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATG141
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C14:1)
+  genes: YP_026266.1
+  equation: 2agpg141[c] + pg141[c] => apg141[c] + g3pg[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATG160
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C16:0)
+  genes: YP_026266.1
+  equation: 2agpg160[c] + pg160[c] => apg160[c] + g3pg[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATG161
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C16:1)
+  genes: YP_026266.1
+  equation: 2agpg161[c] + pg161[c] => apg161[c] + g3pg[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATG180
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C18:0)
+  genes: YP_026266.1
+  equation: 2agpg180[c] + pg180[c] => apg180[c] + g3pg[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2ATG181
+  name: Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C18:1)
+  genes: YP_026266.1
+  equation: 2agpg181[c] + pg181[c] => apg181[c] + g3pg[c]
+  subsystem: Glycerophospholipid Metabolism
+- id: LPLIPAL2E120
+  name: Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C12:0)
+  genes: YP_026266.1
+  equation: 2agpe120[c] + h2o[c] => ddca[c] + g3pe[c] + h[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2E140
+  name: Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:0)
+  genes: YP_026266.1
+  equation: 2agpe140[c] + h2o[c] => g3pe[c] + h[c] + ttdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2E141
+  name: Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:1)
+  genes: YP_026266.1
+  equation: 2agpe141[c] + h2o[c] => g3pe[c] + h[c] + ttdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2E160
+  name: Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:0)
+  genes: YP_026266.1
+  equation: 2agpe160[c] + h2o[c] => g3pe[c] + h[c] + hdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2E161
+  name: Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:1)
+  genes: YP_026266.1
+  equation: 2agpe161[c] + h2o[c] => g3pe[c] + h[c] + hdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2E180
+  name: Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:0)
+  genes: YP_026266.1
+  equation: 2agpe180[c] + h2o[c] => g3pe[c] + h[c] + ocdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2E181
+  name: Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:1)
+  genes: YP_026266.1
+  equation: 2agpe181[c] + h2o[c] => g3pe[c] + h[c] + ocdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2G120
+  name: Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C12:0)
+  genes: YP_026266.1
+  equation: 2agpg120[c] + h2o[c] => ddca[c] + g3pg[c] + h[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2G140
+  name: Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:0)
+  genes: YP_026266.1
+  equation: 2agpg140[c] + h2o[c] => g3pg[c] + h[c] + ttdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2G141
+  name: Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:1)
+  genes: YP_026266.1
+  equation: 2agpg141[c] + h2o[c] => g3pg[c] + h[c] + ttdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2G160
+  name: Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:0)
+  genes: YP_026266.1
+  equation: 2agpg160[c] + h2o[c] => g3pg[c] + h[c] + hdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2G161
+  name: Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:1)
+  genes: YP_026266.1
+  equation: 2agpg161[c] + h2o[c] => g3pg[c] + h[c] + hdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2G180
+  name: Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:0)
+  genes: YP_026266.1
+  equation: 2agpg180[c] + h2o[c] => g3pg[c] + h[c] + ocdca[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LPLIPAL2G181
+  name: Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:1)
+  genes: YP_026266.1
+  equation: 2agpg181[c] + h2o[c] => g3pg[c] + h[c] + ocdcea[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.5
+- id: LYSt2pp
+  name: L-lysine transport in via proton symport (periplasm)
+  genes: NP_416661.1
+  equation: h[p] + lys-L[p] => h[c] + lys-L[c]
+  subsystem: Transport, Inner Membrane
+- id: M1PD
+  name: mannitol-1-phosphate 5-dehydrogenase
+  genes: NP_418057.1
+  equation: mnl1p[c] + nad[c] <=> f6p[c] + h[c] + nadh[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 1.1.1.17
+- id: MALDt2_2pp
+  name: D-Malate transport via proton symport (2 H) (periplasm)
+  genes: NP_417985.1
+  equation: (2) h[p] + mal-D[p] => (2) h[c] + mal-D[c]
+  subsystem: Transport, Inner Membrane
+- id: MALt2_2pp
+  name: Malate transport via proton symport (2 H) (periplasm)
+  genes: NP_417985.1
+  equation: (2) h[p] + mal-L[p] => (2) h[c] + mal-L[c]
+  subsystem: Transport, Inner Membrane
+- id: MALt3pp
+  name: L-malate transport out via proton antiport (periplasm)
+  genes: None
+  equation: mal-L[c] + h[p] => h[c] + mal-L[p]
+  subsystem: Transport, Inner Membrane
+- id: MCTP1App
+  name: murein crosslinking transpeptidase 1A:(A2pm->D-ala) (periplasm)
+  genes: NP_415168.1
+  equation: murein5p5p[p] => ala-D[p] + murein5px4p[p]
+  subsystem: Murein Biosynthesis
+- id: MCTP2App
+  name: murein crosslinking transpeptidase 1A:(A2pm->D-ala) (periplasm)
+  genes: NP_415168.1
+  equation: murein5p5p5p[p] => (2) ala-D[p] + murein5px4px4p[p]
+  subsystem: Murein Biosynthesis
+- id: MDDEP1pp
+  name: murein D,D-endopeptidase (murein4px4p) (periplasm)
+  genes: NP_416831.1 or NP_416638.4
+  equation: h2o[p] + murein4px4p[p] => murein4p4p[p]
+  subsystem: Murein Recycling
+- id: MDDEP2pp
+  name: murein D,D-endopeptidase (murein3px4p) (periplasm)
+  genes: NP_416831.1 or NP_416638.4
+  equation: h2o[p] + murein3px4p[p] => murein4p3p[p]
+  subsystem: Murein Recycling
+- id: MDDEP3pp
+  name: murein D,D-endopeptidase (murein5px4p) (periplasm)
+  genes: NP_416831.1 or NP_416638.4
+  equation: h2o[p] + murein5px4p[p] => murein5p4p[p]
+  subsystem: Murein Recycling
+- id: MDDEP4pp
+  name: murein D,D-endopeptidase (murein4px4px4p) (periplasm)
+  genes: NP_416831.1 or NP_416638.4
+  equation: h2o[p] + murein4px4px4p[p] => murein4px4p4p[p]
+  subsystem: Murein Recycling
+- id: MDH
+  name: malate dehydrogenase
+  genes: NP_417703.1
+  equation: mal-L[c] + nad[c] <=> h[c] + nadh[c] + oaa[c]
+  subsystem: Citric Acid Cycle
+  ec: 1.1.1.37
+- id: ME2
+  name: malic enzyme (NADP)
+  genes: NP_416958.1
+  equation: mal-L[c] + nadp[c] => co2[c] + nadph[c] + pyr[c]
+  subsystem: Anaplerotic Reactions
+  ec: 1.1.1.40
+- id: MECDPDH5
+  name: 2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase
+  genes: (NP_417371.1 and NP_417010.1) or (NP_415210.1 and NP_417010.1)
+  equation: 2mecdp[c] + (2) flxr[c] + h[c] => (2) flxso[c] + h2mb4p[c] + h2o[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: METAT
+  name: methionine adenosyltransferase
+  genes: NP_417417.1
+  equation: atp[c] + h2o[c] + met-L[c] => amet[c] + pi[c] + ppi[c]
+  subsystem: Methionine Metabolism
+  ec: 2.5.1.6
+- id: METSOX1abcpp
+  name: L-methionine S-oxide transport via ABC system (periplasm)
+  genes: None
+  equation: atp[c] + h2o[c] + metsox-S-L[p] => adp[c] + h[c] + metsox-S-L[c] + pi[c]
+  subsystem: Transport, Inner Membrane
+- id: METSOX2abcpp
+  name: L-methionine R-oxide transport via ABC system (periplasm)
+  genes: None
+  equation: atp[c] + h2o[c] + metsox-R-L[p] => adp[c] + h[c] + metsox-R-L[c] + pi[c]
+  subsystem: Transport, Inner Membrane
+- id: METSOXR2
+  name: L-methionine-R-sulfoxide reductase
+  genes: (NP_416292.1 and -) or (NP_416292.1 and NP_418228.2)
+  equation: metsox-R-L[c] + trdrd[c] => h2o[c] + met-L[c] + trdox[c]
+  subsystem: Methionine Metabolism
+- id: MG2t3_2pp
+  name: magnesium (Mg+2) transport in/out via proton antiport (periplasm)
+  genes: None
+  equation: (2) h[c] + mg2[p] <=> mg2[c] + (2) h[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: MG2tpp
+  name: magnesium (+2) transport in via diffusion
+  genes: NP_418260.1
+  equation: mg2[p] => mg2[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: MI1PP
+  name: myo-inositol 1-phosphatase
+  genes: NP_417028.1
+  equation: h2o[c] + mi1p-D[c] => inost[c] + pi[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 3.1.3.25
+- id: MINOHPtexi
+  name: myo-inositol phosphate transport via diffusion (extracellular to periplasm)
+  genes: None
+  equation: minohp[e] => minohp[p]
+  subsystem: Transport, Outer Membrane
+- id: MLDCP1App
+  name: murein L,D-carboxypeptidase (murein5px4p) (periplasm)
+  genes: None
+  equation: h2o[p] + murein5px4p[p] => alaala[p] + murein3px4p[p]
+  subsystem: Murein Biosynthesis
+  ec: 3.4.17.13
+- id: MLDCP1Bpp
+  name: murein L,D-carboxypeptidase (murein4p4p) (periplasm)
+  genes: None
+  equation: h2o[p] + murein4p4p[p] => ala-D[p] + murein4p3p[p]
+  subsystem: Murein Biosynthesis
+  ec: 3.4.17.13
+- id: MLDCP2App
+  name: murein L,D-carboxypeptidase (murein5p5p) (periplasm)
+  genes: None
+  equation: h2o[p] + murein5p5p[p] => alaala[p] + murein5p3p[p]
+  subsystem: Murein Biosynthesis
+  ec: 3.4.17.13
+- id: MLDCP2Bpp
+  name: murein L,D-carboxypeptidase (murein4p3p) (periplasm)
+  genes: None
+  equation: h2o[p] + murein4p3p[p] => ala-D[p] + murein3p3p[p]
+  subsystem: Murein Biosynthesis
+  ec: 3.4.17.13
+- id: MLDCP3App
+  name: murein L,D-carboxypeptidase (murein5px3p) (periplasm)
+  genes: None
+  equation: h2o[p] + murein5px3p[p] => alaala[p] + murein3px3p[p]
+  subsystem: Murein Biosynthesis
+  ec: 3.4.17.13
+- id: MLDEP1pp
+  name: murein L,D-endopeptidase (murein3px3p) (periplasm)
+  genes: None
+  equation: h2o[p] + murein3px3p[p] => murein3p3p[p]
+  subsystem: Murein Recycling
+- id: MLDEP2pp
+  name: murein L,D-endopeptidase (murein5px3p) (periplasm)
+  genes: None
+  equation: h2o[p] + murein5px3p[p] => murein5p3p[p]
+  subsystem: Murein Recycling
+- id: MLTGY1pp
+  name: murein lytic transglycosylase (murein4p4p) (periplasm)
+  genes: NP_417438.2
+  equation: murein4p4p[p] => (2) anhgm4p[p]
+  subsystem: Murein Recycling
+- id: MLTGY2pp
+  name: murein lytic transglycosylase (murein4p3p) (periplasm)
+  genes: NP_417438.2
+  equation: murein4p3p[p] => anhgm3p[p] + anhgm4p[p]
+  subsystem: Murein Recycling
+- id: MLTGY3pp
+  name: murein lytic transglycosylase (murein3p3p) (periplasm)
+  genes: NP_417438.2
+  equation: murein3p3p[p] => (2) anhgm3p[p]
+  subsystem: Murein Recycling
+- id: MLTGY4pp
+  name: murein lytic transglycosylase (murein4px4p4p) (periplasm)
+  genes: NP_417438.2
+  equation: murein4px4p4p[p] => anhgm4p[p] + murein4px4p[p]
+  subsystem: Murein Recycling
+- id: MN2t3pp
+  name: manganese (Mn+2) transport out via proton antiport (periplasm)
+  genes: NP_418350.1
+  equation: mn2[c] + h[p] => h[c] + mn2[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: MOAT
+  name: 3-deoxy-D-manno-octulosonic acid transferase
+  genes: NP_418090.1
+  equation: ckdo[c] + lipidA[c] => cmp[c] + h[c] + kdolipid4[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: MOAT2
+  name: 3-deoxy-D-manno-octulosonic acid transferase
+  genes: NP_418090.1
+  equation: ckdo[c] + kdolipid4[c] => cmp[c] + h[c] + kdo2lipid4[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: MOGDS
+  name: molybdopterin guanine dinucleotide synthase
+  genes: NP_418294.1 or (NP_418294.1 and -)
+  equation: gtp[c] + h[c] + moco[c] => mocogdp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: MOX
+  name: malate oxidase
+  genes: None
+  equation: mal-L[c] + o2[c] <=> h2o2[c] + oaa[c]
+  subsystem: Citric Acid Cycle
+  ec: 1.1.3.3
+- id: MPTAT
+  name: molybdopterin adenylyltransferase
+  genes: NP_414550.1
+  equation: atp[c] + h[c] + mpt[c] => mptamp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: MTAN
+  name: methylthioadenosine nucleosidase
+  genes: NP_414701.1
+  equation: 5mta[c] + h2o[c] => 5mtr[c] + ade[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 3.2.2.16
+- id: MTHFR2
+  name: 5,10-methylenetetrahydrofolate reductase (NADH)
+  genes: NP_418376.1
+  equation: (2) h[c] + mlthf[c] + nadh[c] => 5mthf[c] + nad[c]
+  subsystem: Folate Metabolism
+  ec: 1.5.1.20
+- id: NACtpp
+  name: Nicotinic acid uptake (periplasm)
+  genes: None
+  equation: nac[p] => nac[c]
+  subsystem: Transport, Inner Membrane
+- id: NADK
+  name: NAD kinase
+  genes: NP_417105.1
+  equation: atp[c] + nad[c] => adp[c] + h[c] + nadp[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.1.23
+- id: NADN
+  name: NAD nucleosidase
+  genes: None
+  equation: h2o[c] + nad[c] => adprib[c] + h[c] + ncam[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.2.2.5
+- id: NADPPPS
+  name: NADP phosphatase
+  genes: None
+  equation: h2o[c] + nadp[c] => nad[c] + pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: NADTRHD
+  name: NAD transhydrogenase
+  genes: NP_418397.2 or (- and NP_416120.1)
+  equation: nad[c] + nadph[c] => nadh[c] + nadp[c]
+  subsystem: Oxidative Phosphorylation
+- id: NDPK1
+  name: nucleoside-diphosphate kinase (ATP:GDP)
+  genes: NP_415007.1 or NP_417013.1
+  equation: atp[c] + gdp[c] <=> adp[c] + gtp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NDPK2
+  name: nucleoside-diphosphate kinase (ATP:UDP)
+  genes: NP_415007.1 or NP_417013.1
+  equation: atp[c] + udp[c] <=> adp[c] + utp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NDPK3
+  name: nucleoside-diphosphate kinase (ATP:CDP)
+  genes: NP_417013.1 or NP_415007.1
+  equation: atp[c] + cdp[c] <=> adp[c] + ctp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NDPK4
+  name: nucleoside-diphosphate kinase (ATP:dTDP)
+  genes: NP_415007.1 or NP_417013.1
+  equation: atp[c] + dtdp[c] <=> adp[c] + dttp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NDPK5
+  name: nucleoside-diphosphate kinase (ATP:dGDP)
+  genes: NP_415007.1 or NP_417013.1
+  equation: atp[c] + dgdp[c] <=> adp[c] + dgtp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NDPK6
+  name: nucleoside-diphosphate kinase (ATP:dUDP)
+  genes: NP_417013.1 or NP_415007.1
+  equation: atp[c] + dudp[c] <=> adp[c] + dutp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NDPK7
+  name: nucleoside-diphosphate kinase (ATP:dCDP)
+  genes: NP_415007.1 or NP_417013.1
+  equation: atp[c] + dcdp[c] <=> adp[c] + dctp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NDPK8
+  name: nucleoside-diphosphate kinase (ATP:dADP)
+  genes: NP_415007.1 or NP_417013.1
+  equation: atp[c] + dadp[c] <=> adp[c] + datp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.6
+- id: NI2t3pp
+  name: nickle (Ni+2) transport out via proton antiport (periplasm)
+  genes: NP_418350.1
+  equation: ni2[c] + h[p] => h[c] + ni2[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: NI2tpp
+  name: nickel (+2) transport in via permease (no H+)
+  genes: NP_418260.1
+  equation: ni2[p] => ni2[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: NMNAT
+  name: nicotinamide-nucleotide adenylyltransferase
+  genes: NP_415172.1
+  equation: atp[c] + h[c] + nmn[c] => nad[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.7.1
+- id: NMNDA
+  name: nicotinamide-nucleotide amidase
+  genes: None
+  equation: h2o[c] + nmn[c] => nh4[c] + nicrnt[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.5.1.42
+- id: NMNN
+  name: NMN nucleosidase
+  genes: None
+  equation: h2o[c] + nmn[c] => h[c] + ncam[c] + r5p[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.2.2.14
+- id: NMNt7pp
+  name: NMN transport via NMN glycohydrolase (periplasm)
+  genes: None
+  equation: h2o[c] + nmn[p] => h[c] + ncam[c] + r5p[c]
+  subsystem: Transport, Inner Membrane
+  ec: 3.2.2.14
+- id: NNAM
+  name: nicotinamidase
+  genes: NP_416282.4
+  equation: h2o[c] + ncam[c] => nac[c] + nh4[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.5.1.19
+- id: NNATr
+  name: nicotinate-nucleotide adenylyltransferase
+  genes: NP_415172.1
+  equation: atp[c] + h[c] + nicrnt[c] <=> dnad[c] + ppi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.7.18
+- id: NNDPR
+  name: nicotinate-nucleotide diphosphorylase (carboxylating)
+  genes: NP_414651.1
+  equation: (2) h[c] + prpp[c] + quln[c] => co2[c] + nicrnt[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.4.2.19
+- id: NTD1
+  name: 5'-nucleotidase (dUMP)
+  genes: NP_416794.1 or NP_418791.1
+  equation: dump[c] + h2o[c] => duri[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.1.3.5
+- id: NTD12
+  name: 5'-nucleotidase (dIMP)
+  genes: NP_416794.1
+  equation: dimp[c] + h2o[c] => din[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.1.3.5
+- id: NTD2
+  name: 5'-nucleotidase (UMP)
+  genes: NP_418791.1
+  equation: h2o[c] + ump[c] => pi[c] + uri[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.1.3.5
+- id: NTD3
+  name: 5'-nucleotidase (dCMP)
+  genes: NP_416794.1
+  equation: dcmp[c] + h2o[c] => dcyt[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.1.3.5
+- id: NTD5
+  name: 5'-nucleotidase (dTMP)
+  genes: NP_416794.1 or NP_418791.1
+  equation: dtmp[c] + h2o[c] => pi[c] + thymd[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.1.3.5
+- id: NTD6
+  name: 5'-nucleotidase (dAMP)
+  genes: NP_416794.1
+  equation: damp[c] + h2o[c] => dad-2[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.1.3.5
+- id: NTD8
+  name: 5'-nucleotidase (dGMP)
+  genes: NP_416794.1
+  equation: dgmp[c] + h2o[c] => dgsn[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.1.3.5
+- id: NTP1
+  name: nucleoside-triphosphatase (ATP)
+  genes: NP_418585.4
+  equation: atp[c] + h2o[c] => adp[c] + h[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.15
+- id: NTP10
+  name: nucleoside-triphosphatase (ITP)
+  genes: NP_418585.4 or NP_418811.2
+  equation: h2o[c] + itp[c] => h[c] + idp[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.15
+- id: NTP11
+  name: nucleoside-triphosphatase (dITP)
+  genes: NP_418811.2
+  equation: ditp[c] + h2o[c] => didp[c] + h[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.15
+- id: NTP12
+  name: nucleoside-triphosphatase (XTP)
+  genes: NP_418811.2
+  equation: h2o[c] + xtp[c] => h[c] + pi[c] + xdp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.15
+- id: NTP3
+  name: nucleoside-triphosphatase (GTP)
+  genes: NP_418585.4
+  equation: gtp[c] + h2o[c] => gdp[c] + h[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.15
+- id: NTP5
+  name: nucleoside-triphosphatase (CTP)
+  genes: NP_418585.4
+  equation: ctp[c] + h2o[c] => cdp[c] + h[c] + pi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.15
+- id: NTPP10
+  name: Nucleoside triphosphate pyrophosphorylase (ditp)
+  genes: NP_417429.1
+  equation: ditp[c] + h2o[c] => dimp[c] + h[c] + ppi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.19
+- id: NTPP11
+  name: Nucleoside triphosphate pyrophosphorylase (xtp)
+  genes: NP_417429.1
+  equation: h2o[c] + xtp[c] => h[c] + ppi[c] + xmp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.19
+- id: NTPP5
+  name: Nucleoside triphosphate pyrophosphorylase (datp)
+  genes: NP_416379.1
+  equation: datp[c] + h2o[c] => damp[c] + h[c] + ppi[c]
+  subsystem: Nucleotide Salvage Pathway
+- id: NTPP9
+  name: Nucleoside triphosphate pyrophosphorylase (itp)
+  genes: NP_417429.1
+  equation: h2o[c] + itp[c] => h[c] + imp[c] + ppi[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 3.6.1.19
+- id: O16GLCT2
+  name: glucosyltransferase II (LPS O16 antigen biosynthesis)
+  genes: None
+  equation: gfgaragund[c] + udpg[c] => h[c] + o16aund[c] + udp[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: OCTDPS
+  name: Octaprenyl pyrophosphate synthase
+  genes: NP_417654.1
+  equation: frdp[c] + (5) ipdp[c] => octdp[c] + (5) ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OGMEACPD
+  name: 3-Oxo-glutaryl-[ACP] methyl ester dehydratase
+  genes: NP_414722.1
+  equation: hgmeACP[c] => egmeACP[c] + h2o[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 4.2.1.59
+- id: OHPBAT
+  name: O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase
+  genes: NP_415427.1
+  equation: glu-L[c] + ohpb[c] <=> akg[c] + phthr[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.6.1.52
+- id: OHPHM
+  name: 2-octaprenyl-6-hydroxyphenol methylase
+  genes: NP_416735.1
+  equation: 2ohph[c] + amet[c] => 2omph[c] + ahcys[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OMBZLM
+  name: 2-Octaprenyl-6-methoxy-benzoquinol methylase
+  genes: YP_026269.1
+  equation: 2ombzl[c] + amet[c] => 2ommbl[c] + ahcys[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OMMBLHX
+  name: 2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase
+  genes: NP_415195.1
+  equation: 2ommbl[c] + (0.5) o2[c] => 2omhmbl[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OMMBLHX3
+  name: 2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase (anaerobic)
+  genes: None
+  equation: 2ommbl[c] + (2) atp[c] + (3) h2o[c] + nad[c] => 2omhmbl[c] + (2) adp[c]
+    + (3) h[c] + nadh[c] + (2) pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OMPHHX
+  name: 2-octaprenyl-6-methoxyphenol hydroxylase
+  genes: NP_417383.1
+  equation: 2omph[c] + (0.5) o2[c] => 2ombzl[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OMPHHX3
+  name: 2-octaprenyl-6-methoxyphenol hydroxylase (anaerobic)
+  genes: None
+  equation: 2omph[c] + (2) atp[c] + (3) h2o[c] + nad[c] => 2ombzl[c] + (2) adp[c]
+    + (3) h[c] + nadh[c] + (2) pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OPHBDC
+  name: Octaprenyl-hydroxybenzoate decarboxylase
+  genes: NP_418285.1 and NP_416814.1
+  equation: 3ophb[c] + h[c] => 2oph[c] + co2[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OPHHX3
+  name: 2-Octaprenylphenol hydroxylase (anaerobic)
+  genes: None
+  equation: 2oph[c] + (2) atp[c] + (3) h2o[c] + nad[c] => 2ohph[c] + (2) adp[c] +
+    (3) h[c] + nadh[c] + (2) pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: OPMEACPD
+  name: 3-Oxo-pimeloyl-[ACP] methyl ester dehydratase
+  genes: NP_414722.1
+  equation: hpmeACP[c] => epmeACP[c] + h2o[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 4.2.1.59
+- id: OROTt2_2pp
+  name: Orotate transport via proton symport (2 H) (periplasm)
+  genes: NP_417985.1
+  equation: (2) h[p] + orot[p] => (2) h[c] + orot[c]
+  subsystem: Transport, Inner Membrane
+- id: ORPT
+  name: orotate phosphoribosyltransferase
+  genes: NP_418099.1
+  equation: orot5p[c] + ppi[c] <=> orot[c] + prpp[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 2.4.2.10
+- id: OXAMTC
+  name: oxamate transcarbamoylase
+  genes: None
+  equation: oxur[c] + pi[c] => cbp[c] + oxam[c]
+  subsystem: Unassigned
+  ec: 2.1.3.5
+- id: PA120abcpp
+  name: phosphatidate transport via ABC system (n-C12:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pa120[c] => adp[c] + h[c] + pi[c] + pa120[p]
+  subsystem: Transport, Inner Membrane
+- id: PA140abcpp
+  name: phosphatidate transport via ABC system (n-C14:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pa140[c] => adp[c] + h[c] + pi[c] + pa140[p]
+  subsystem: Transport, Inner Membrane
+- id: PA141abcpp
+  name: phosphatidate transport via ABC system (n-C14:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pa141[c] => adp[c] + h[c] + pi[c] + pa141[p]
+  subsystem: Transport, Inner Membrane
+- id: PA160abcpp
+  name: phosphatidate transport via ABC system (n-C16:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pa160[c] => adp[c] + h[c] + pi[c] + pa160[p]
+  subsystem: Transport, Inner Membrane
+- id: PA161abcpp
+  name: phosphatidate transport via ABC system (n-C16:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pa161[c] => adp[c] + h[c] + pi[c] + pa161[p]
+  subsystem: Transport, Inner Membrane
+- id: PA180abcpp
+  name: phosphatidate transport via ABC system (n-C18:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pa180[c] => adp[c] + h[c] + pi[c] + pa180[p]
+  subsystem: Transport, Inner Membrane
+- id: PA181abcpp
+  name: phosphatidate transport via ABC system (n-C18:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pa181[c] => adp[c] + h[c] + pi[c] + pa181[p]
+  subsystem: Transport, Inner Membrane
+- id: PACALDt2rpp
+  name: phenylacetaldehyde reversible transport via proton symport (periplasm)
+  genes: None
+  equation: h[p] + pacald[p] <=> h[c] + pacald[c]
+  subsystem: Transport, Inner Membrane
+- id: PANTS
+  name: pantothenate synthase
+  genes: NP_414675.1
+  equation: ala-B[c] + atp[c] + pant-R[c] => amp[c] + h[c] + pnto-R[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 6.3.2.1
+- id: PDX5PO2
+  name: pyridoxine 5'-phosphate oxidase (anaerboic
+  genes: None
+  equation: nad[c] + pdx5p[c] => h[c] + nadh[c] + pydx5p[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: PE120abcpp
+  name: phosphatidylethanolamine transport via ABC system (n-C12:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pe120[c] => adp[c] + h[c] + pi[c] + pe120[p]
+  subsystem: Transport, Inner Membrane
+- id: PE140abcpp
+  name: phosphatidylethanolamine transport via ABC system (n-C14:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pe140[c] => adp[c] + h[c] + pi[c] + pe140[p]
+  subsystem: Transport, Inner Membrane
+- id: PE141abcpp
+  name: phosphatidylethanolamine transport via ABC system (n-C14:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pe141[c] => adp[c] + h[c] + pi[c] + pe141[p]
+  subsystem: Transport, Inner Membrane
+- id: PE160abcpp
+  name: phosphatidylethanolamine transport via ABC system (n-C16:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pe160[c] => adp[c] + h[c] + pi[c] + pe160[p]
+  subsystem: Transport, Inner Membrane
+- id: PE161abcpp
+  name: phosphatidylethanolamine transport via ABC system (n-C16:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pe161[c] => adp[c] + h[c] + pi[c] + pe161[p]
+  subsystem: Transport, Inner Membrane
+- id: PE180abcpp
+  name: phosphatidylethanolamine transport via ABC system (n-C18:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pe180[c] => adp[c] + h[c] + pi[c] + pe180[p]
+  subsystem: Transport, Inner Membrane
+- id: PE181abcpp
+  name: phosphatidylethanolamine transport via ABC system (n-C18:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pe181[c] => adp[c] + h[c] + pi[c] + pe181[p]
+  subsystem: Transport, Inner Membrane
+- id: PFK
+  name: phosphofructokinase
+  genes: NP_418351.1
+  equation: atp[c] + f6p[c] => adp[c] + fdp[c] + h[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.11
+- id: PFK_2
+  name: Phosphofructokinase
+  genes: NP_418351.1
+  equation: atp[c] + tag6p-D[c] => adp[c] + h[c] + tagdp-D[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 2.7.1.11
+- id: PFK_3
+  name: phosphofructokinase (s7p)
+  genes: NP_418351.1
+  equation: atp[c] + s7p[c] => adp[c] + h[c] + s17bp[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 2.7.1.11
+- id: PG120abcpp
+  name: phosphatidylglycerol transport via ABC system (n-C12:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pg120[c] => adp[c] + h[c] + pi[c] + pg120[p]
+  subsystem: Transport, Inner Membrane
+- id: PG140abcpp
+  name: phosphatidylglycerol transport via ABC system (n-C14:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pg140[c] => adp[c] + h[c] + pi[c] + pg140[p]
+  subsystem: Transport, Inner Membrane
+- id: PG141abcpp
+  name: phosphatidylglycerol transport via ABC system (n-C14:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pg141[c] => adp[c] + h[c] + pi[c] + pg141[p]
+  subsystem: Transport, Inner Membrane
+- id: PG160abcpp
+  name: phosphatidylglycerol transport via ABC system (n-C16:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pg160[c] => adp[c] + h[c] + pi[c] + pg160[p]
+  subsystem: Transport, Inner Membrane
+- id: PG161abcpp
+  name: phosphatidylglycerol transport via ABC system (n-C16:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pg161[c] => adp[c] + h[c] + pi[c] + pg161[p]
+  subsystem: Transport, Inner Membrane
+- id: PG180abcpp
+  name: phosphatidylglycerol transport via ABC system (n-C18:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pg180[c] => adp[c] + h[c] + pi[c] + pg180[p]
+  subsystem: Transport, Inner Membrane
+- id: PG181abcpp
+  name: phosphatidylglycerol transport via ABC system (n-C18:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pg181[c] => adp[c] + h[c] + pi[c] + pg181[p]
+  subsystem: Transport, Inner Membrane
+- id: PGAMT
+  name: phosphoglucosamine mutase
+  genes: NP_417643.1
+  equation: gam1p[c] <=> gam6p[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 5.4.2.10
+- id: PGCD
+  name: phosphoglycerate dehydrogenase
+  genes: NP_417388.1
+  equation: 3pg[c] + nad[c] => 3php[c] + h[c] + nadh[c]
+  subsystem: Glycine and Serine Metabolism
+  ec: 1.1.1.95
+- id: PGI
+  name: glucose-6-phosphate isomerase
+  genes: NP_418449.1
+  equation: g6p[c] <=> f6p[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.3.1.9
+- id: PGK
+  name: phosphoglycerate kinase
+  genes: NP_417401.1
+  equation: 3pg[c] + atp[c] <=> 13dpg[c] + adp[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.2.3
+- id: PGM
+  name: phosphoglycerate mutase
+  genes: NP_415276.1
+  equation: 2pg[c] <=> 3pg[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.4.2.1
+- id: PGMT
+  name: phosphoglucomutase
+  genes: NP_415214.1
+  equation: g1p[c] <=> g6p[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 5.4.2.2
+- id: PGP120abcpp
+  name: phosphatidylglycerophosphate transport via ABC system (n-C12:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pgp120[c] => adp[c] + h[c] + pi[c] + pgp120[p]
+  subsystem: Transport, Inner Membrane
+- id: PGP140abcpp
+  name: phosphatidylglycerophosphate transport via ABC system (n-C14:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pgp140[c] => adp[c] + h[c] + pi[c] + pgp140[p]
+  subsystem: Transport, Inner Membrane
+- id: PGP141abcpp
+  name: phosphatidylglycerophosphate transport via ABC system (n-C14:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pgp141[c] => adp[c] + h[c] + pi[c] + pgp141[p]
+  subsystem: Transport, Inner Membrane
+- id: PGP160abcpp
+  name: phosphatidylglycerophosphate transport via ABC system (n-C16:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pgp160[c] => adp[c] + h[c] + pi[c] + pgp160[p]
+  subsystem: Transport, Inner Membrane
+- id: PGP161abcpp
+  name: phosphatidylglycerophosphate transport via ABC system (n-C16:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pgp161[c] => adp[c] + h[c] + pi[c] + pgp161[p]
+  subsystem: Transport, Inner Membrane
+- id: PGP180abcpp
+  name: phosphatidylglycerophosphate transport via ABC system (n-C18:0, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pgp180[c] => adp[c] + h[c] + pi[c] + pgp180[p]
+  subsystem: Transport, Inner Membrane
+- id: PGP181abcpp
+  name: phosphatidylglycerophosphate transport via ABC system (n-C18:1, periplasm)
+  genes: NP_415434.1
+  equation: atp[c] + h2o[c] + pgp181[c] => adp[c] + h[c] + pi[c] + pgp181[p]
+  subsystem: Transport, Inner Membrane
+- id: PGPP120
+  name: phosphatidylglycerol phosphate phosphatase (n-C14:0)
+  genes: NP_414952.1
+  equation: h2o[c] + pgp120[c] => pg120[c] + pi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP120pp
+  name: phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:0)
+  genes: NP_414952.1
+  equation: h2o[p] + pgp120[p] => pg120[p] + pi[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP140
+  name: phosphatidylglycerol phosphate phosphatase (n-C14:0)
+  genes: NP_414952.1
+  equation: h2o[c] + pgp140[c] => pg140[c] + pi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP140pp
+  name: phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:0)
+  genes: NP_414952.1
+  equation: h2o[p] + pgp140[p] => pg140[p] + pi[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP141
+  name: phosphatidylglycerol phosphate phosphatase (n-C14:1)
+  genes: NP_414952.1
+  equation: h2o[c] + pgp141[c] => pg141[c] + pi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP141pp
+  name: phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:1)
+  genes: NP_414952.1
+  equation: h2o[p] + pgp141[p] => pg141[p] + pi[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP160
+  name: phosphatidylglycerol phosphate phosphatase (n-C16:0)
+  genes: NP_414952.1
+  equation: h2o[c] + pgp160[c] => pg160[c] + pi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP160pp
+  name: phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:0)
+  genes: NP_414952.1
+  equation: h2o[p] + pgp160[p] => pg160[p] + pi[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP161
+  name: phosphatidylglycerol phosphate phosphatase (n-C16:1)
+  genes: NP_414952.1
+  equation: h2o[c] + pgp161[c] => pg161[c] + pi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP161pp
+  name: phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:1)
+  genes: NP_414952.1
+  equation: h2o[p] + pgp161[p] => pg161[p] + pi[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP180
+  name: phosphatidylglycerol phosphate phosphatase (n-C18:0)
+  genes: NP_414952.1
+  equation: h2o[c] + pgp180[c] => pg180[c] + pi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP180pp
+  name: phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:0)
+  genes: NP_414952.1
+  equation: h2o[p] + pgp180[p] => pg180[p] + pi[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP181
+  name: phosphatidylglycerol phosphate phosphatase (n-C18:1)
+  genes: NP_414952.1
+  equation: h2o[c] + pgp181[c] => pg181[c] + pi[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGPP181pp
+  name: phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:1)
+  genes: NP_414952.1
+  equation: h2o[p] + pgp181[p] => pg181[p] + pi[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.3.27
+- id: PGSA120
+  name: Phosphatidylglycerol synthase (n-C12:0)
+  genes: NP_416422.1
+  equation: cdpdddecg[c] + glyc3p[c] => cmp[c] + h[c] + pgp120[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.5
+- id: PGSA140
+  name: Phosphatidylglycerol synthase (n-C14:0)
+  genes: NP_416422.1
+  equation: cdpdtdecg[c] + glyc3p[c] => cmp[c] + h[c] + pgp140[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.5
+- id: PGSA141
+  name: Phosphatidylglycerol synthase (n-C14:1)
+  genes: NP_416422.1
+  equation: cdpdtdec7eg[c] + glyc3p[c] => cmp[c] + h[c] + pgp141[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.5
+- id: PGSA160
+  name: Phosphatidylglycerol synthase (n-C16:0)
+  genes: NP_416422.1
+  equation: cdpdhdecg[c] + glyc3p[c] => cmp[c] + h[c] + pgp160[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.5
+- id: PGSA161
+  name: Phosphatidylglycerol synthase (n-C16:1)
+  genes: NP_416422.1
+  equation: cdpdhdec9eg[c] + glyc3p[c] => cmp[c] + h[c] + pgp161[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.5
+- id: PGSA180
+  name: Phosphatidylglycerol synthase (n-C18:0)
+  genes: NP_416422.1
+  equation: cdpdodecg[c] + glyc3p[c] => cmp[c] + h[c] + pgp180[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.5
+- id: PGSA181
+  name: Phosphatidylglycerol synthase (n-C18:1)
+  genes: NP_416422.1
+  equation: cdpdodec11eg[c] + glyc3p[c] => cmp[c] + h[c] + pgp181[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.5
+- id: PHEMEtiex
+  name: protoheme transport irreversible out via diffusion (periplasm to extracellular)
+  genes: None
+  equation: pheme[p] => pheme[e]
+  subsystem: Transport, Outer Membrane
+- id: PHETA1
+  name: phenylalanine transaminase
+  genes: NP_418478.1
+  equation: akg[c] + phe-L[c] <=> glu-L[c] + phpyr[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 2.6.1.58
+- id: PLIPA1A120pp
+  name: Phospholipase A1 (phosphatidate, n-C12:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa120[p] => 2ddecg3p[p] + ddca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1A140pp
+  name: Phospholipase A1 (phosphatidate, n-C14:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa140[p] => 2tdecg3p[p] + ttdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1A141pp
+  name: Phospholipase A1 (phosphatidate, n-C14:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa141[p] => 2tdec7eg3p[p] + ttdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1A160pp
+  name: Phospholipase A1 (phosphatidate, n-C16:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa160[p] => 2hdecg3p[p] + hdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1A161pp
+  name: Phospholipase A1 (phosphatidate, n-C16:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa161[p] => 2hdec9eg3p[p] + hdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1A180pp
+  name: Phospholipase A1 (phosphatidate, n-C18:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa180[p] => 2odecg3p[p] + ocdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1A181pp
+  name: Phospholipase A1 (phosphatidate, n-C18:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa181[p] => 2odec11eg3p[p] + ocdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1E120pp
+  name: Phospholipase A1 (phosphatidylethanolamine, n-C12:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe120[p] => 2agpe120[p] + ddca[p] + h[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1E140pp
+  name: Phospholipase A1 (phosphatidylethanolamine, n-C14:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe140[p] => 2agpe140[p] + h[p] + ttdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1E141pp
+  name: Phospholipase A1 (phosphatidylethanolamine, n-C14:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe141[p] => 2agpe141[p] + h[p] + ttdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1E160pp
+  name: Phospholipase A1 (phosphatidylethanolamine, n-C16:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe160[p] => 2agpe160[p] + h[p] + hdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1E161pp
+  name: Phospholipase A1 (phosphatidylethanolamine, n-C16:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe161[p] => 2agpe161[p] + h[p] + hdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1E180pp
+  name: Phospholipase A1 (phosphatidylethanolamine, n-C18:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe180[p] => 2agpe180[p] + h[p] + ocdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1E181pp
+  name: Phospholipase A1 (phosphatidylethanolamine, n-C18:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe181[p] => 2agpe181[p] + h[p] + ocdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1G120pp
+  name: Phospholipase A1 (phosphatidylglycerol, n-C12:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg120[p] => 2agpg120[p] + ddca[p] + h[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1G140pp
+  name: Phospholipase A1 (phosphatidylglycerol, n-C14:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg140[p] => 2agpg140[p] + h[p] + ttdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1G141pp
+  name: Phospholipase A1 (phosphatidylglycerol, n-C14:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg141[p] => 2agpg141[p] + h[p] + ttdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1G160pp
+  name: Phospholipase A1 (phosphatidylglycerol, n-C16:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg160[p] => 2agpg160[p] + h[p] + hdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1G161pp
+  name: Phospholipase A1 (phosphatidylglycerol, n-C16:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg161[p] => 2agpg161[p] + h[p] + hdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1G180pp
+  name: Phospholipase A1 (phosphatidylglycerol, n-C18:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg180[p] => 2agpg180[p] + h[p] + ocdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA1G181pp
+  name: Phospholipase A1 (phosphatidylglycerol, n-C18:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg181[p] => 2agpg181[p] + h[p] + ocdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.32
+- id: PLIPA2A120pp
+  name: Phospholipase A2 (phosphatidate, n-C12:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa120[p] => 1ddecg3p[p] + ddca[p] + h[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2A140pp
+  name: Phospholipase A2 (phosphatidate, n-C14:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa140[p] => 1tdecg3p[p] + h[p] + ttdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2A141pp
+  name: Phospholipase A2 (phosphatidate, n-C14:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa141[p] => 1tdec7eg3p[p] + h[p] + ttdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2A160pp
+  name: Phospholipase A2 (phosphatidate, n-C16:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa160[p] => 1hdecg3p[p] + h[p] + hdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2A161pp
+  name: Phospholipase A2 (phosphatidate, n-C16:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa161[p] => 1hdec9eg3p[p] + h[p] + hdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2A180pp
+  name: Phospholipase A2 (phosphatidate, n-C18:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa180[p] => 1odecg3p[p] + h[p] + ocdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2A181pp
+  name: Phospholipase A2 (phosphatidate, n-C18:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pa181[p] => 1odec11eg3p[p] + h[p] + ocdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2E120pp
+  name: Phospholipase A2 (phosphatidylethanolamine, n-C12:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe120[p] => 1agpe120[p] + ddca[p] + h[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2E140pp
+  name: Phospholipase A2 (phosphatidylethanolamine, n-C14:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe140[p] => 1agpe140[p] + h[p] + ttdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2E141pp
+  name: Phospholipase A2 (phosphatidylethanolamine, n-C14:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe141[p] => 1agpe141[p] + h[p] + ttdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2E160pp
+  name: Phospholipase A2 (phosphatidylethanolamine, n-C16:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe160[p] => 1agpe160[p] + h[p] + hdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2E161pp
+  name: Phospholipase A2 (phosphatidylethanolamine, n-C16:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe161[p] => 1agpe161[p] + h[p] + hdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2E180pp
+  name: Phospholipase A2 (phosphatidylethanolamine, n-C18:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe180[p] => 1agpe180[p] + h[p] + ocdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2E181pp
+  name: Phospholipase A2 (phosphatidylethanolamine, n-C18:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pe181[p] => 1agpe181[p] + h[p] + ocdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2G120pp
+  name: Phospholipase A2 (phosphatidylglycerol, n-C12:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg120[p] => 1agpg120[p] + ddca[p] + h[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2G140pp
+  name: Phospholipase A2 (phosphatidylglycerol, n-C14:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg140[p] => 1agpg140[p] + h[p] + ttdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2G141pp
+  name: Phospholipase A2 (phosphatidylglycerol, n-C14:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg141[p] => 1agpg141[p] + h[p] + ttdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2G160pp
+  name: Phospholipase A2 (phosphatidylglycerol, n-C16:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg160[p] => 1agpg160[p] + h[p] + hdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2G161pp
+  name: Phospholipase A2 (phosphatidylglycerol, n-C16:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg161[p] => 1agpg161[p] + h[p] + hdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2G180pp
+  name: Phospholipase A2 (phosphatidylglycerol, n-C18:0) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg180[p] => 1agpg180[p] + h[p] + ocdca[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PLIPA2G181pp
+  name: Phospholipase A2 (phosphatidylglycerol, n-C18:1) (periplasm)
+  genes: NP_418265.1
+  equation: h2o[p] + pg181[p] => 1agpg181[p] + h[p] + ocdcea[p]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 3.1.1.4
+- id: PMDPHT
+  name: pyrimidine phosphatase
+  genes: None
+  equation: 5aprbu[c] + h2o[c] => 4r5au[c] + pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: PMEACPE
+  name: Pimeloyl-[ACP] methyl ester esterase
+  genes: NP_417871.1
+  equation: h2o[c] + pmeACP[c] => meoh[c] + pimACP[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: PMPK
+  name: phosphomethylpyrimidine kinase
+  genes: NP_416606.1
+  equation: 4ampm[c] + atp[c] => 2mahmp[c] + adp[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.4.7
+- id: PNTOt4pp
+  name: Pantothenate sodium symporter (periplasm)
+  genes: NP_417724.4
+  equation: na1[p] + pnto-R[p] => na1[c] + pnto-R[c]
+  subsystem: Transport, Inner Membrane
+- id: PPA
+  name: inorganic diphosphatase
+  genes: NP_418647.1
+  equation: h2o[c] + ppi[c] => h[c] + (2) pi[c]
+  subsystem: Anaplerotic Reactions
+  ec: 3.6.1.1
+- id: PPALtpp
+  name: propanal transport via channel (periplasm)
+  genes: None
+  equation: ppal[c] <=> ppal[p]
+  subsystem: Transport, Inner Membrane
+- id: PPBNGS
+  name: porphobilinogen synthase
+  genes: NP_414903.4
+  equation: (2) 5aop[c] => h[c] + (2) h2o[c] + ppbng[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 4.2.1.24
+- id: PPC
+  name: phosphoenolpyruvate carboxylase
+  genes: NP_418391.1
+  equation: co2[c] + h2o[c] + pep[c] => h[c] + oaa[c] + pi[c]
+  subsystem: Anaplerotic Reactions
+  ec: 4.1.1.31
+- id: PPGPPDP
+  name: guanosine-3',5'-bis(diphosphate) 3'-diphosphatase
+  genes: NP_418107.1
+  equation: h2o[c] + ppgpp[c] => gdp[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.1.7.2
+- id: PPK2r
+  name: polyphosphate kinase
+  genes: NP_416996.1
+  equation: atp[c] + ppi[c] <=> adp[c] + pppi[c]
+  subsystem: Oxidative Phosphorylation
+  ec: 2.7.4.1
+- id: PPKr
+  name: polyphosphate kinase
+  genes: NP_416996.1
+  equation: atp[c] + pi[c] <=> adp[c] + ppi[c]
+  subsystem: Oxidative Phosphorylation
+  ec: 2.7.4.1
+- id: PPM
+  name: phosphopentomutase
+  genes: NP_418800.1
+  equation: r1p[c] <=> r5p[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 5.4.2.7
+- id: PPM2
+  name: phosphopentomutase 2 (deoxyribose)
+  genes: NP_418800.1
+  equation: 2dr1p[c] <=> 2dr5p[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 5.4.2.7
+- id: PPND
+  name: prephenate dehydrogenase
+  genes: NP_417091.1
+  equation: nad[c] + pphn[c] => 34hpp[c] + co2[c] + nadh[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 1.3.1.12
+- id: PPNDH
+  name: prephenate dehydratase
+  genes: NP_417090.1
+  equation: h[c] + pphn[c] => co2[c] + h2o[c] + phpyr[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 4.2.1.51
+- id: PRAIS
+  name: phosphoribosylaminoimidazole synthase
+  genes: NP_416994.1
+  equation: atp[c] + fpram[c] => adp[c] + air[c] + (2) h[c] + pi[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 6.3.3.1
+- id: PRASCSi
+  name: phosphoribosylaminoimidazolesuccinocarboxamide synthase
+  genes: NP_416971.1
+  equation: 5aizc[c] + asp-L[c] + atp[c] => 25aics[c] + adp[c] + h[c] + pi[c]
+  subsystem: Purine and Pyrimidine Biosynthesis
+  ec: 6.3.2.6
+- id: PRPPS
+  name: phosphoribosylpyrophosphate synthetase
+  genes: NP_415725.1
+  equation: atp[c] + r5p[c] <=> amp[c] + h[c] + prpp[c]
+  subsystem: Histidine Metabolism
+  ec: 2.7.6.1
+- id: PSCVT
+  name: 3-phosphoshikimate 1-carboxyvinyltransferase
+  genes: NP_415428.1
+  equation: pep[c] + skm5p[c] <=> 3psme[c] + pi[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 2.5.1.19
+- id: PSD120
+  name: Phosphatidylserine decarboxylase (n-C12:0)
+  genes: NP_418584.1
+  equation: h[c] + ps120[c] => co2[c] + pe120[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 4.1.1.65
+- id: PSD140
+  name: Phosphatidylserine decarboxylase (n-C14:0)
+  genes: NP_418584.1
+  equation: h[c] + ps140[c] => co2[c] + pe140[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 4.1.1.65
+- id: PSD141
+  name: Phosphatidylserine decarboxylase (n-C14:1)
+  genes: NP_418584.1
+  equation: h[c] + ps141[c] => co2[c] + pe141[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 4.1.1.65
+- id: PSD160
+  name: Phosphatidylserine decarboxylase (n-C16:0)
+  genes: NP_418584.1
+  equation: h[c] + ps160[c] => co2[c] + pe160[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 4.1.1.65
+- id: PSD161
+  name: Phosphatidylserine decarboxylase (n-C16:1)
+  genes: NP_418584.1
+  equation: h[c] + ps161[c] => co2[c] + pe161[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 4.1.1.65
+- id: PSD180
+  name: Phosphatidylserine decarboxylase (n-C18:0)
+  genes: NP_418584.1
+  equation: h[c] + ps180[c] => co2[c] + pe180[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 4.1.1.65
+- id: PSD181
+  name: Phosphatidylserine decarboxylase (n-C18:1)
+  genes: NP_418584.1
+  equation: h[c] + ps181[c] => co2[c] + pe181[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 4.1.1.65
+- id: PSERT
+  name: phosphoserine transaminase
+  genes: NP_415427.1
+  equation: 3php[c] + glu-L[c] => akg[c] + pser-L[c]
+  subsystem: Glycine and Serine Metabolism
+  ec: 2.6.1.52
+- id: PSP_L
+  name: phosphoserine phosphatase (L-serine)
+  genes: NP_418805.1
+  equation: h2o[c] + pser-L[c] => pi[c] + ser-L[c]
+  subsystem: Glycine and Serine Metabolism
+  ec: 3.1.3.3
+- id: PSSA120
+  name: Phosphatidylserine syntase (n-C12:0)
+  genes: NP_417080.4
+  equation: cdpdddecg[c] + ser-L[c] => cmp[c] + h[c] + ps120[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.8
+- id: PSSA140
+  name: Phosphatidylserine syntase (n-C14:0)
+  genes: NP_417080.4
+  equation: cdpdtdecg[c] + ser-L[c] => cmp[c] + h[c] + ps140[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.8
+- id: PSSA141
+  name: Phosphatidylserine syntase (n-C14:1)
+  genes: NP_417080.4
+  equation: cdpdtdec7eg[c] + ser-L[c] => cmp[c] + h[c] + ps141[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.8
+- id: PSSA160
+  name: Phosphatidylserine syntase (n-C16:0)
+  genes: NP_417080.4
+  equation: cdpdhdecg[c] + ser-L[c] => cmp[c] + h[c] + ps160[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.8
+- id: PSSA161
+  name: Phosphatidylserine syntase (n-C16:1)
+  genes: NP_417080.4
+  equation: cdpdhdec9eg[c] + ser-L[c] => cmp[c] + h[c] + ps161[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.8
+- id: PSSA180
+  name: Phosphatidylserine syntase (n-C18:0)
+  genes: NP_417080.4
+  equation: cdpdodecg[c] + ser-L[c] => cmp[c] + h[c] + ps180[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.8
+- id: PSSA181
+  name: Phosphatidylserine syntase (n-C18:1)
+  genes: NP_417080.4
+  equation: cdpdodec11eg[c] + ser-L[c] => cmp[c] + h[c] + ps181[c]
+  subsystem: Glycerophospholipid Metabolism
+  ec: 2.7.8.8
+- id: PTA2
+  name: Phosphate acetyltransferase
+  genes: NP_416800.1
+  equation: pi[c] + ppcoa[c] => coa[c] + ppap[c]
+  subsystem: Alternate Carbon Metabolism
+- id: PTAr
+  name: phosphotransacetylase
+  genes: NP_416800.1
+  equation: accoa[c] + pi[c] <=> actp[c] + coa[c]
+  subsystem: Pyruvate Metabolism
+  ec: 2.3.1.8
+- id: PTPATi
+  name: pantetheine-phosphate adenylyltransferase
+  genes: NP_418091.1
+  equation: atp[c] + h[c] + pan4p[c] => dpcoa[c] + ppi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.7.3
+- id: PUNP1
+  name: purine-nucleoside phosphorylase (Adenosine)
+  genes: NP_418801.1
+  equation: adn[c] + pi[c] <=> ade[c] + r1p[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.1
+- id: PUNP2
+  name: purine-nucleoside phosphorylase (Deoxyadenosine)
+  genes: NP_418801.1
+  equation: dad-2[c] + pi[c] <=> 2dr1p[c] + ade[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.1
+- id: PUNP3
+  name: purine-nucleoside phosphorylase (Guanosine)
+  genes: NP_418801.1
+  equation: gsn[c] + pi[c] <=> gua[c] + r1p[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.1
+- id: PUNP4
+  name: purine-nucleoside phosphorylase (Deoxyguanosine)
+  genes: NP_418801.1
+  equation: dgsn[c] + pi[c] <=> 2dr1p[c] + gua[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.1
+- id: PUNP5
+  name: purine-nucleoside phosphorylase (Inosine)
+  genes: NP_418801.1
+  equation: ins[c] + pi[c] <=> hxan[c] + r1p[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.1
+- id: PUNP6
+  name: purine-nucleoside phosphorylase (Deoxyinosine)
+  genes: NP_418801.1
+  equation: din[c] + pi[c] <=> 2dr1p[c] + hxan[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.1
+- id: PYDAMtpp
+  name: pyridoxamine import
+  genes: None
+  equation: pydam[p] => pydam[c]
+  subsystem: Transport, Inner Membrane
+- id: PYDXK
+  name: pyridoxal kinase
+  genes: NP_416153.1
+  equation: atp[c] + pydx[c] => adp[c] + h[c] + pydx5p[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.1.35
+- id: PYDXNtpp
+  name: pyridoxine import
+  genes: None
+  equation: pydxn[p] => pydxn[c]
+  subsystem: Transport, Inner Membrane
+- id: PYDXtpp
+  name: pyridoxal import
+  genes: None
+  equation: pydx[p] => pydx[c]
+  subsystem: Transport, Inner Membrane
+- id: PYK
+  name: pyruvate kinase
+  genes: NP_416368.1 or NP_416191.1
+  equation: adp[c] + h[c] + pep[c] => atp[c] + pyr[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.40
+- id: PYNP2r
+  name: pyrimidine-nucleoside phosphorylase (uracil)
+  genes: NP_418275.1
+  equation: pi[c] + uri[c] <=> r1p[c] + ura[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.2
+- id: PYRt2rpp
+  name: pyruvate reversible transport via proton symport (periplasm)
+  genes: None
+  equation: h[p] + pyr[p] <=> h[c] + pyr[c]
+  subsystem: Transport, Inner Membrane
+- id: QMO2
+  name: quinol monooxygenase (Ubiquinol-8)
+  genes: NP_417501.1
+  equation: (2) o2[c] + q8h2[c] => (2) h[c] + (2) o2s[c] + q8[c]
+  subsystem: Oxidative Phosphorylation
+- id: QMO3
+  name: quinol monooxygenase (menaquinol 8)
+  genes: NP_417501.1
+  equation: mql8[c] + (2) o2[c] => (2) h[c] + mqn8[c] + (2) o2s[c]
+  subsystem: Oxidative Phosphorylation
+- id: QUIN2tpp
+  name: Quinate transport (periplasm)
+  genes: None
+  equation: quin[p] <=> quin[c]
+  subsystem: Transport, Inner Membrane
+- id: R1PK
+  name: ribose 1-phosphokinase
+  genes: None
+  equation: atp[c] + r1p[c] => adp[c] + h[c] + r15bp[c]
+  subsystem: Alternate Carbon Metabolism
+- id: RBFK
+  name: riboflavin kinase
+  genes: NP_414566.1
+  equation: atp[c] + ribflv[c] => adp[c] + fmn[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.7.1.26
+- id: RBFSb
+  name: riboflavin synthase
+  genes: NP_414949.1
+  equation: (2) dmlz[c] => 4r5au[c] + ribflv[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.5.1.9
+- id: RBP4E
+  name: L-ribulose-phosphate 4-epimerase
+  genes: NP_418619.1
+  equation: ru5p-L[c] <=> xu5p-D[c]
+  subsystem: Alternate Carbon Metabolism
+  ec: 5.1.3.4
+- id: RNDR1
+  name: ribonucleoside-diphosphate reductase (ADP)
+  genes: (NP_416737.1 and NP_416738.1 and -) or (NP_416737.1 and NP_416738.1 and
+    NP_418228.2)
+  equation: adp[c] + trdrd[c] => dadp[c] + h2o[c] + trdox[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 1.17.4.1
+- id: RNDR2
+  name: ribonucleoside-diphosphate reductase (GDP)
+  genes: (NP_416737.1 and NP_416738.1 and NP_418228.2) or (NP_416737.1 and NP_416738.1
+    and -)
+  equation: gdp[c] + trdrd[c] => dgdp[c] + h2o[c] + trdox[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 1.17.4.1
+- id: RNDR3
+  name: ribonucleoside-diphosphate reductase (CDP)
+  genes: (NP_416737.1 and NP_416738.1 and NP_418228.2) or (NP_416737.1 and NP_416738.1
+    and -)
+  equation: cdp[c] + trdrd[c] => dcdp[c] + h2o[c] + trdox[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 1.17.4.1
+- id: RNDR4
+  name: ribonucleoside-diphosphate reductase (UDP)
+  genes: (NP_416737.1 and NP_416738.1 and NP_418228.2) or (NP_416737.1 and NP_416738.1
+    and -)
+  equation: trdrd[c] + udp[c] => dudp[c] + h2o[c] + trdox[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 1.17.4.1
+- id: RPE
+  name: ribulose 5-phosphate 3-epimerase
+  genes: NP_417845.1
+  equation: ru5p-D[c] <=> xu5p-D[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 5.1.3.1
+- id: S7PI
+  name: sedoheptulose 7-phosphate isomerase
+  genes: NP_414757.1
+  equation: s7p[c] => gmhep7p[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: SADT2
+  name: Sulfate adenyltransferase
+  genes: NP_417231.1 and NP_417232.1
+  equation: atp[c] + gtp[c] + h2o[c] + so4[c] => aps[c] + gdp[c] + pi[c] + ppi[c]
+  subsystem: Cysteine Metabolism
+- id: SDPDS
+  name: succinyl-diaminopimelate desuccinylase
+  genes: NP_416967.1
+  equation: h2o[c] + sl26da[c] => 26dap-LL[c] + succ[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 3.5.1.18
+- id: SELGTHR
+  name: selenate glutathione reductase
+  genes: None
+  equation: (4) gthrd[c] + (2) h[c] + slnt[c] => dgslnt[c] + gthox[c] + (3) h2o[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: SELGTHR2
+  name: selenate glutathione reductase II
+  genes: None
+  equation: dgslnt[c] + h[c] + nadph[c] => gslnt[c] + gthrd[c] + nadp[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: SELGTHR3
+  name: selenate glutathione reductase III
+  genes: None
+  equation: gslnt[c] + nadph[c] => gthrd[c] + nadp[c] + seln[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: SERAT
+  name: serine O-acetyltransferase
+  genes: NP_418064.1
+  equation: accoa[c] + ser-L[c] <=> acser[c] + coa[c]
+  subsystem: Cysteine Metabolism
+  ec: 2.3.1.30
+- id: SERD_L
+  name: L-serine deaminase
+  genes: NP_416328.1
+  equation: ser-L[c] => nh4[c] + pyr[c]
+  subsystem: Glycine and Serine Metabolism
+  ec: 4.3.1.17
+- id: SHCHCS3
+  name: 2-succinyl-6-hydroxy-2,4-cyclohexadiene 1-carboxylate synthase
+  genes: NP_416766.1
+  equation: 2sephchc[c] => 2shchc[c] + pyr[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: SHK3Dr
+  name: shikimate dehydrogenase
+  genes: NP_417740.1
+  equation: 3dhsk[c] + h[c] + nadph[c] <=> nadp[c] + skm[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 1.1.1.25
+- id: SHKK
+  name: shikimate kinase
+  genes: YP_026215.2 or NP_414922.1
+  equation: atp[c] + skm[c] => adp[c] + h[c] + skm5p[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 2.7.1.71
+- id: SPMS
+  name: spermidine synthase
+  genes: NP_414663.1
+  equation: ametam[c] + ptrc[c] => 5mta[c] + h[c] + spmd[c]
+  subsystem: Arginine and Proline Metabolism
+  ec: 2.5.1.16
+- id: SPODM
+  name: superoxide dismutase
+  genes: NP_418344.3 or NP_416173.1
+  equation: (2) h[c] + (2) o2s[c] => h2o2[c] + o2[c]
+  subsystem: Unassigned
+  ec: 1.15.1.1
+- id: SUCBZL
+  name: o-succinylbenzoate-CoA ligase
+  genes: NP_416763.1
+  equation: atp[c] + coa[c] + sucbz[c] => amp[c] + ppi[c] + sbzcoa[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 6.2.1.26
+- id: SUCCt2_2pp
+  name: succinate transport via proton symport (2 H) (periplasm)
+  genes: NP_417985.1
+  equation: (2) h[p] + succ[p] => (2) h[c] + succ[c]
+  subsystem: Transport, Inner Membrane
+- id: SUCCt3pp
+  name: succinate transport out via proton antiport (periplasm)
+  genes: None
+  equation: succ[c] + h[p] => h[c] + succ[p]
+  subsystem: Transport, Inner Membrane
+- id: T2DECAI
+  name: trans-2-decenoyl-ACP isomerase
+  genes: NP_415474.1
+  equation: tdec2eACP[c] <=> cdec3eACP[c]
+  subsystem: Cell Envelope Biosynthesis
+- id: TALA
+  name: transaldolase
+  genes: NP_414549.1
+  equation: g3p[c] + s7p[c] <=> e4p[c] + f6p[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 2.2.1.2
+- id: TDP
+  name: thiamin pyrophosphatase
+  genes: NP_415652.1
+  equation: h2o[c] + thmpp[c] => h[c] + pi[c] + thmmp[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 3.6.1.15
+- id: TDPADGAT
+  name: dTDP-4-amino-4,6-dideoxy-D-glucose acetyltransferase
+  genes: YP_026256.2
+  equation: accoa[c] + dtdp4addg[c] => coa[c] + dtdp4aaddg[c] + h[c]
+  subsystem: Cell Envelope Biosynthesis
+- id: TDPAGTA
+  name: dTDP-4-amino-4,6-dideoxy-D-glucose transaminase
+  genes: NP_418238.1
+  equation: dtdp4d6dg[c] + glu-L[c] => akg[c] + dtdp4addg[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 2.6.1.33
+- id: THDPS
+  name: tetrahydrodipicolinate succinylase
+  genes: NP_414708.1
+  equation: h2o[c] + succoa[c] + thdp[c] => coa[c] + sl2a6o[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 2.3.1.117
+- id: THFAT
+  name: Tetrahydrofolate aminomethyltransferase
+  genes: NP_417046.1
+  equation: h2o[c] + methf[c] => 5fthf[c] + h[c]
+  subsystem: Folate Metabolism
+  ec: 2.1.2.10
+- id: THRA2i
+  name: L-allo-Threonine Aldolase
+  genes: NP_417046.1
+  equation: athr-L[c] => acald[c] + gly[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 4.1.2.5
+- id: THRAi
+  name: Threonine aldolase
+  genes: NP_417046.1
+  equation: thr-L[c] => acald[c] + gly[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 4.1.2.5
+- id: THRD_L
+  name: L-threonine deaminase
+  genes: NP_418220.1
+  equation: thr-L[c] => 2obut[c] + nh4[c]
+  subsystem: Valine, Leucine, and Isoleucine Metabolism
+  ec: 4.3.1.19
+- id: THRS
+  name: threonine synthase
+  genes: NP_414545.1
+  equation: h2o[c] + phom[c] => pi[c] + thr-L[c]
+  subsystem: Threonine and Lysine Metabolism
+  ec: 4.2.3.1
+- id: THRTRS
+  name: Threonyl-tRNA synthetase
+  genes: NP_416234.1
+  equation: atp[c] + thr-L[c] + trnathr[c] => amp[c] + ppi[c] + thrtrna[c]
+  subsystem: tRNA Charging
+  ec: 6.1.1.3
+- id: THYMt3pp
+  name: thymine transport out via proton antiport (periplasm)
+  genes: None
+  equation: thym[c] + h[p] => h[c] + thym[p]
+  subsystem: Transport, Inner Membrane
+- id: TKT1
+  name: transketolase
+  genes: YP_026188.1
+  equation: r5p[c] + xu5p-D[c] <=> g3p[c] + s7p[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 2.2.1.1
+- id: TKT2
+  name: transketolase
+  genes: YP_026188.1
+  equation: e4p[c] + xu5p-D[c] <=> f6p[c] + g3p[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 2.2.1.1
+- id: TYRTA
+  name: tyrosine transaminase
+  genes: NP_418478.1
+  equation: akg[c] + tyr-L[c] <=> 34hpp[c] + glu-L[c]
+  subsystem: Tyrosine, Tryptophan, and Phenylalanine Metabolism
+  ec: 2.6.1.5
+- id: ThDPAT
+  name: ThDP adenylyl transferase
+  genes: None
+  equation: adp[c] + h[c] + thmpp[c] => athtp[c] + pi[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+- id: U23GAAT
+  name: UDP-3-O-(3-hydroxymyristoyl)glucosamine acyltransferase
+  genes: NP_414721.1
+  equation: 3hmrsACP[c] + u3hga[c] => ACP[c] + h[c] + u23ga[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: UAAGDS
+  name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase
+  genes: NP_414627.1
+  equation: 26dap-M[c] + atp[c] + uamag[c] => adp[c] + h[c] + pi[c] + ugmd[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.3.2.13
+- id: UACMAMO
+  name: UDP-N-acetyl-D-mannosamine oxidoreductase
+  genes: YP_026254.1
+  equation: h2o[c] + (2) nad[c] + uacmam[c] => (3) h[c] + (2) nadh[c] + uacmamu[c]
+  subsystem: Cell Envelope Biosynthesis
+- id: UAMAGS
+  name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase
+  genes: NP_414630.1
+  equation: atp[c] + glu-D[c] + uama[c] => adp[c] + h[c] + pi[c] + uamag[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.3.2.9
+- id: UAMAS
+  name: UDP-N-acetylmuramoyl-L-alanine synthetase
+  genes: NP_414633.1
+  equation: ala-L[c] + atp[c] + uamr[c] => adp[c] + h[c] + pi[c] + uama[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 6.3.2.8
+- id: UDCPDP
+  name: undecaprenyl-diphosphatase
+  genes: NP_417529.1
+  equation: h2o[c] + udcpdp[c] => h[c] + pi[c] + udcpp[c]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 3.6.1.27
+- id: UDCPDPpp
+  name: undecaprenyl-diphosphatase (periplasm)
+  genes: NP_417529.1
+  equation: h2o[p] + udcpdp[p] => h[p] + pi[p] + udcpp[p]
+  subsystem: Cell Envelope Biosynthesis
+  ec: 3.6.1.27
+- id: UDCPPtppi
+  name: undecaprenyl phosphate transport (cytoplasm to periplasm)
+  genes: None
+  equation: udcpp[p] => udcpp[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: UHGADA
+  name: UDP-3-O-acetylglucosamine deacetylase
+  genes: NP_414638.1
+  equation: h2o[c] + u3aga[c] => ac[c] + u3hga[c]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: ULA4Ntppi
+  name: transport (cytoplasm to periplasm)
+  genes: YP_588462.1 and NP_416761.4
+  equation: uLa4n[c] => uLa4n[p]
+  subsystem: Lipopolysaccharide Biosynthesis / Recycling
+- id: UMPK
+  name: UMP kinase
+  genes: NP_415430.1 or NP_414713.1
+  equation: atp[c] + ump[c] <=> adp[c] + udp[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.4.14
+- id: UPP3MT
+  name: uroporphyrinogen methyltransferase
+  genes: NP_418247.1
+  equation: (2) amet[c] + uppg3[c] => (2) ahcys[c] + dscl[c] + h[c]
+  subsystem: Cofactor and Prosthetic Group Biosynthesis
+  ec: 2.1.1.107
+- id: UPPRT
+  name: uracil phosphoribosyltransferase
+  genes: NP_416993.2
+  equation: prpp[c] + ura[c] => ppi[c] + ump[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.4.2.9
+- id: URAt2pp
+  name: uracil transport in via proton symport (periplasm)
+  genes: NP_416992.1
+  equation: h[p] + ura[p] => h[c] + ura[c]
+  subsystem: Transport, Inner Membrane
+- id: URIC
+  name: uricase
+  genes: None
+  equation: (2) h2o[c] + o2[c] + urate[c] => alltn[c] + co2[c] + h2o2[c]
+  subsystem: Unassigned
+  ec: 1.7.3.3
+- id: URIK2
+  name: uridine kinase (GTP:Uridine)
+  genes: NP_416570.2
+  equation: gtp[c] + uri[c] => gdp[c] + h[c] + ump[c]
+  subsystem: Nucleotide Salvage Pathway
+  ec: 2.7.1.48
+- id: VALTRS
+  name: Valyl-tRNA synthetase
+  genes: NP_418679.1
+  equation: atp[c] + trnaval[c] + val-L[c] => amp[c] + ppi[c] + valtrna[c]
+  subsystem: tRNA Charging
+  ec: 6.1.1.9
+- id: VALt2rpp
+  name: L-valine reversible transport via proton symport (periplasm)
+  genes: NP_414935.1 or (- and -)
+  equation: h[p] + val-L[p] <=> h[c] + val-L[c]
+  subsystem: Transport, Inner Membrane
+- id: XANt2pp
+  name: xanthine transport in via proton symport (periplasm)
+  genes: NP_418111.1
+  equation: h[p] + xan[p] => h[c] + xan[c]
+  subsystem: Transport, Inner Membrane
+- id: XANtpp
+  name: xanthine reversible transport (periplasm)
+  genes: None
+  equation: xan[p] <=> xan[c]
+  subsystem: Transport, Inner Membrane
+- id: ZN2t3pp
+  name: zinc (Zn+2) transport out via proton antiport (periplasm)
+  genes: NP_418350.1
+  equation: zn2[c] + h[p] => h[c] + zn2[p]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: ZNabcpp
+  name: zinc (Zn+2) transport via ABC system (periplasm)
+  genes: NP_416371.4 and NP_416373.1 and NP_416372.1
+  equation: atp[c] + h2o[c] + zn2[p] => adp[c] + h[c] + pi[c] + zn2[c]
+  subsystem: Inorganic Ion Transport and Metabolism
