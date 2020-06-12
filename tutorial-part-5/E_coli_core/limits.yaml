@@ -1,0 +1,4 @@
+- reaction: ATPM
+  lower: 3.15
+- reaction: SPODM
+  upper: 0

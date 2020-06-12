@@ -1,0 +1,13 @@
+name: Shewanella-core
+biomass: core_biomass
+default_flux_limit: 1000.0
+compounds:
+- include: compounds.tsv
+reactions:
+- include: reactions_core.yaml
+# - include: WP3_associations.tsv
+  # format: tsv
+exchange:
+- include: exchange.yaml
+# model:
+# - include: ./WP3_model_def.tsv
