@@ -1,0 +1,358 @@
+- id: ACALD
+  name: acetaldehyde dehydrogenase (acetylating)
+  genes: imaginary7180 or imaginary2425
+  equation: acald_c[c] + coa_c[c] + nad_c[c] <=> accoa_c[c] + h_c[c] + nadh_c[c]
+  subsystem: Pyruvate Metabolism
+- id: ACALDt
+  name: acetaldehyde reversible transport
+  genes: imaginary1481
+  equation: acald_e[e] <=> acald_c[c]
+  subsystem: Transport, Extracellular
+- id: ACKr
+  name: acetate kinase
+  genes: imaginary7287 or imaginary956 or imaginary1755
+  equation: ac_c[c] + atp_c[c] <=> actp_c[c] + adp_c[c]
+  subsystem: Pyruvate Metabolism
+- id: ACONTa
+  name: aconitase (half-reaction A, Citrate hydro-lyase)
+  genes: imaginary4907 or imaginary2569
+  equation: cit_c[c] <=> acon_C_c[c] + h2o_c[c]
+  subsystem: Citric Acid Cycle
+- id: ACONTb
+  name: aconitase (half-reaction B, Isocitrate hydro-lyase)
+  genes: imaginary4907 or imaginary2569
+  equation: acon_C_c[c] + h2o_c[c] <=> icit_c[c]
+  subsystem: Citric Acid Cycle
+- id: ADK1
+  name: adenylate kinase
+  genes: imaginary4533
+  equation: amp_c[c] + atp_c[c] <=> (2) adp_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: AKGDH
+  name: 2-Oxoglutarate dehydrogenase
+  genes: imaginary8250 and imaginary3796 and imaginary7055
+  equation: akg_c[c] + coa_c[c] + nad_c[c] => co2_c[c] + nadh_c[c] + succoa_c[c]
+  subsystem: Citric Acid Cycle
+- id: AKGt2r
+  name: 2-oxoglutarate reversible transport via symport
+  genes: imaginary5250
+  equation: akg_e[e] + h_e[e] <=> akg_c[c] + h_c[c]
+  subsystem: Transport, Extracellular
+- id: ALCD2x
+  name: alcohol dehydrogenase (ethanol)
+  genes: imaginary7913 or imaginary2294 or imaginary2425
+  equation: etoh_c[c] + nad_c[c] <=> acald_c[c] + h_c[c] + nadh_c[c]
+  subsystem: Pyruvate Metabolism
+- id: ATPS4r
+  name: ATP synthase (four protons for one ATP)
+  genes: (imaginary8241 and imaginary5100 and imaginary2704 and imaginary434 and
+    imaginary8766 and imaginary7810 and imaginary4392 and imaginary7185) or (imaginary8241
+    and imaginary5100 and imaginary2704 and imaginary434 and imaginary8766 and imaginary7810
+    and imaginary4392 and imaginary7185 and imaginary528)
+  equation: adp_c[c] + (4) h_e[e] + pi_c[c] <=> atp_c[c] + h2o_c[c] + (3) h_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: CO2t
+  name: CO2 transporter via diffusion
+  genes: imaginary1481
+  equation: co2_e[e] <=> co2_c[c]
+  subsystem: Transport, Extracellular
+- id: CS
+  name: citrate synthase
+  genes: imaginary1132
+  equation: accoa_c[c] + h2o_c[c] + oaa_c[c] => cit_c[c] + coa_c[c] + h_c[c]
+  subsystem: Citric Acid Cycle
+- id: CYTBD
+  name: 'cytochrome oxidase bd (ubiquinol-8: 2 protons)'
+  genes: (imaginary3170 and imaginary1779) or (imaginary6825 and imaginary9737)
+  equation: (2) h_c[c] + (0.5) o2_c[c] + q8h2_c[c] => h2o_c[c] + (2) h_e[e] + q8_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: D_LACt2
+  name: D-lactate transport via proton symport
+  genes: imaginary3229 or imaginary1226
+  equation: h_e[e] + lac_D_e[e] <=> h_c[c] + lac_D_c[c]
+  subsystem: Transport, Extracellular
+- id: ENO
+  name: enolase
+  genes: imaginary1034
+  equation: 2pg_c[c] <=> h2o_c[c] + pep_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: FBA
+  name: fructose-bisphosphate aldolase
+  genes: imaginary4742 or imaginary4878 or imaginary9658
+  equation: fdp_c[c] <=> dhap_c[c] + g3p_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: FBP
+  name: fructose-bisphosphatase
+  genes: imaginary7895 or imaginary2448
+  equation: fdp_c[c] + h2o_c[c] => f6p_c[c] + pi_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: FORt2
+  name: formate transport via proton symport (uptake only)
+  genes: imaginary9176 or imaginary1003
+  equation: for_e[e] + h_e[e] => for_c[c] + h_c[c]
+  subsystem: Transport, Extracellular
+- id: FORti
+  name: formate transport via diffusion
+  genes: imaginary9176 or imaginary1003
+  equation: for_c[c] => for_e[e]
+  subsystem: Transport, Extracellular
+- id: FRD7
+  name: fumarate reductase
+  genes: imaginary787 and imaginary941 and imaginary8228 and imaginary7918
+  equation: fum_c[c] + q8h2_c[c] => q8_c[c] + succ_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: FRUpts2
+  name: Fructose transport via PEP:Pyr PTS (f6p generating)
+  genes: imaginary7565 and imaginary8045 and imaginary9555 and imaginary7987 and
+    imaginary6398
+  equation: fru_e[e] + pep_c[c] => f6p_c[c] + pyr_c[c]
+  subsystem: Transport, Extracellular
+- id: FUM
+  name: fumarase
+  genes: imaginary8769 or imaginary2344 or imaginary3584
+  equation: fum_c[c] + h2o_c[c] <=> mal_L_c[c]
+  subsystem: Citric Acid Cycle
+- id: FUMt2_2
+  name: Fumarate transport via proton symport (2 H)
+  genes: imaginary8390
+  equation: fum_e[e] + (2) h_e[e] => fum_c[c] + (2) h_c[c]
+  subsystem: Transport, Extracellular
+- id: G6PDH2r
+  name: glucose 6-phosphate dehydrogenase
+  genes: imaginary854
+  equation: g6p_c[c] + nadp_c[c] <=> 6pgl_c[c] + h_c[c] + nadph_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: GAPD
+  name: glyceraldehyde-3-phosphate dehydrogenase
+  genes: imaginary6591
+  equation: g3p_c[c] + nad_c[c] + pi_c[c] <=> 13dpg_c[c] + h_c[c] + nadh_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: GLCpts
+  name: D-glucose transport via PEP:Pyr PTS
+  genes: (imaginary6831 and imaginary3918 and imaginary7987 and imaginary6398) or
+    (imaginary7565 and imaginary8045 and imaginary9555 and imaginary7987 and imaginary6398)
+    or (imaginary6831 and imaginary183 and imaginary7987 and imaginary6398)
+  equation: glc_D_e[e] + pep_c[c] => g6p_c[c] + pyr_c[c]
+  subsystem: Transport, Extracellular
+- id: GLNS
+  name: glutamine synthetase
+  genes: imaginary9404 or imaginary2837
+  equation: atp_c[c] + glu_L_c[c] + nh4_c[c] => adp_c[c] + gln_L_c[c] + h_c[c] +
+    pi_c[c]
+  subsystem: Glutamate Metabolism
+- id: GLNabc
+  name: L-glutamine transport via ABC system
+  genes: imaginary2140 and imaginary9575 and imaginary3081
+  equation: atp_c[c] + gln_L_e[e] + h2o_c[c] => adp_c[c] + gln_L_c[c] + h_c[c] +
+    pi_c[c]
+  subsystem: Transport, Extracellular
+- id: GLUDy
+  name: glutamate dehydrogenase (NADP)
+  genes: imaginary8104
+  equation: glu_L_c[c] + h2o_c[c] + nadp_c[c] <=> akg_c[c] + h_c[c] + nadph_c[c]
+    + nh4_c[c]
+  subsystem: Glutamate Metabolism
+- id: GLUN
+  name: glutaminase
+  genes: imaginary9566 or imaginary2202 or imaginary5586
+  equation: gln_L_c[c] + h2o_c[c] => glu_L_c[c] + nh4_c[c]
+  subsystem: Glutamate Metabolism
+- id: GLUSy
+  name: glutamate synthase (NADPH)
+  genes: imaginary667 and imaginary272
+  equation: akg_c[c] + gln_L_c[c] + h_c[c] + nadph_c[c] => (2) glu_L_c[c] + nadp_c[c]
+  subsystem: Glutamate Metabolism
+- id: GLUt2r
+  name: L-glutamate transport via proton symport, reversible (periplasm)
+  genes: imaginary7163
+  equation: glu_L_e[e] + h_e[e] <=> glu_L_c[c] + h_c[c]
+  subsystem: Transport, Extracellular
+- id: GND
+  name: phosphogluconate dehydrogenase
+  genes: imaginary5418
+  equation: 6pgc_c[c] + nadp_c[c] => co2_c[c] + nadph_c[c] + ru5p_D_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: H2Ot
+  name: H2O transport via diffusion
+  genes: imaginary7836 or imaginary1481
+  equation: h2o_e[e] <=> h2o_c[c]
+  subsystem: Transport, Extracellular
+- id: ICDHyr
+  name: isocitrate dehydrogenase (NADP)
+  genes: imaginary3294
+  equation: icit_c[c] + nadp_c[c] <=> akg_c[c] + co2_c[c] + nadph_c[c]
+  subsystem: Citric Acid Cycle
+- id: ICL
+  name: Isocitrate lyase
+  genes: imaginary6863
+  equation: icit_c[c] => glx_c[c] + succ_c[c]
+  subsystem: Anaplerotic reactions
+- id: LDH_D
+  name: D lactate dehydrogenase
+  genes: imaginary2405 or imaginary5299
+  equation: lac_D_c[c] + nad_c[c] <=> h_c[c] + nadh_c[c] + pyr_c[c]
+  subsystem: Pyruvate Metabolism
+- id: MALS
+  name: malate synthase
+  genes: imaginary1458 or imaginary513
+  equation: accoa_c[c] + glx_c[c] + h2o_c[c] => coa_c[c] + h_c[c] + mal_L_c[c]
+  subsystem: Anaplerotic reactions
+- id: MALt2_2
+  name: Malate transport via proton symport (2 H)
+  genes: imaginary8390
+  equation: (2) h_e[e] + mal_L_e[e] => (2) h_c[c] + mal_L_c[c]
+  subsystem: Transport, Extracellular
+- id: MDH
+  name: malate dehydrogenase
+  genes: imaginary2999
+  equation: mal_L_c[c] + nad_c[c] <=> h_c[c] + nadh_c[c] + oaa_c[c]
+  subsystem: Citric Acid Cycle
+- id: ME1
+  name: malic enzyme (NAD)
+  genes: imaginary8988
+  equation: mal_L_c[c] + nad_c[c] => co2_c[c] + nadh_c[c] + pyr_c[c]
+  subsystem: Anaplerotic reactions
+- id: ME2
+  name: malic enzyme (NADP)
+  genes: imaginary5798
+  equation: mal_L_c[c] + nadp_c[c] => co2_c[c] + nadph_c[c] + pyr_c[c]
+  subsystem: Anaplerotic reactions
+- id: NADH16
+  name: NADH dehydrogenase (ubiquinone-8 & 3 protons)
+  genes: imaginary1 and imaginary1397 and imaginary2883 and imaginary5800 and imaginary1517
+    and imaginary4516 and imaginary8328 and imaginary693 and imaginary3627 and imaginary5017
+    and imaginary2816 and imaginary3084 and imaginary3855
+  equation: (4) h_c[c] + nadh_c[c] + q8_c[c] => (3) h_e[e] + nad_c[c] + q8h2_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: NADTRHD
+  name: NAD transhydrogenase
+  genes: imaginary7601 or (imaginary8197 and imaginary511)
+  equation: nad_c[c] + nadph_c[c] => nadh_c[c] + nadp_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: NH4t
+  name: ammonia reversible transport
+  genes: imaginary1481 or imaginary4629
+  equation: nh4_e[e] <=> nh4_c[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: O2t
+  name: o2 transport via diffusion
+  genes: imaginary1481
+  equation: o2_e[e] <=> o2_c[c]
+  subsystem: Transport, Extracellular
+- id: PDH
+  name: pyruvate dehydrogenase
+  genes: imaginary3094 and imaginary7255 and imaginary8250
+  equation: coa_c[c] + nad_c[c] + pyr_c[c] => accoa_c[c] + co2_c[c] + nadh_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: PFK
+  name: phosphofructokinase
+  genes: imaginary3091 or imaginary885
+  equation: atp_c[c] + f6p_c[c] => adp_c[c] + fdp_c[c] + h_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: PFL
+  name: pyruvate formate lyase
+  genes: (imaginary5956 and imaginary5570 and imaginary9528) or (imaginary5956 and
+    imaginary5570) or (imaginary5956 and -) or (imaginary3664 and imaginary8567)
+  equation: coa_c[c] + pyr_c[c] => accoa_c[c] + for_c[c]
+  subsystem: Pyruvate Metabolism
+- id: PGI
+  name: glucose-6-phosphate isomerase
+  genes: imaginary1098
+  equation: g6p_c[c] <=> f6p_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: PGK
+  name: phosphoglycerate kinase
+  genes: imaginary7856
+  equation: 3pg_c[c] + atp_c[c] <=> 13dpg_c[c] + adp_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: PGL
+  name: 6-phosphogluconolactonase
+  genes: imaginary7465
+  equation: 6pgl_c[c] + h2o_c[c] => 6pgc_c[c] + h_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: PGM
+  name: phosphoglycerate mutase
+  genes: imaginary765 or imaginary4687 or imaginary3132
+  equation: 2pg_c[c] <=> 3pg_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: PIt2r
+  name: phosphate reversible transport via proton symport
+  genes: imaginary3648 or imaginary3724
+  equation: h_e[e] + pi_e[e] <=> h_c[c] + pi_c[c]
+  subsystem: Inorganic Ion Transport and Metabolism
+- id: PPC
+  name: phosphoenolpyruvate carboxylase
+  genes: imaginary9505
+  equation: co2_c[c] + h2o_c[c] + pep_c[c] => h_c[c] + oaa_c[c] + pi_c[c]
+  subsystem: Anaplerotic reactions
+- id: PPCK
+  name: phosphoenolpyruvate carboxykinase
+  genes: imaginary546
+  equation: atp_c[c] + oaa_c[c] => adp_c[c] + co2_c[c] + pep_c[c]
+  subsystem: Anaplerotic reactions
+- id: PPS
+  name: phosphoenolpyruvate synthase
+  genes: imaginary5093
+  equation: atp_c[c] + h2o_c[c] + pyr_c[c] => amp_c[c] + (2) h_c[c] + pep_c[c] +
+    pi_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: PTAr
+  name: phosphotransacetylase
+  genes: imaginary4549 or imaginary4115
+  equation: accoa_c[c] + pi_c[c] <=> actp_c[c] + coa_c[c]
+  subsystem: Pyruvate Metabolism
+- id: PYK
+  name: pyruvate kinase
+  genes: imaginary6446 or imaginary4192
+  equation: adp_c[c] + h_c[c] + pep_c[c] => atp_c[c] + pyr_c[c]
+  subsystem: Glycolysis/Gluconeogenesis
+- id: RPE
+  name: ribulose 5-phosphate 3-epimerase
+  genes: imaginary3874 or imaginary1615
+  equation: ru5p_D_c[c] <=> xu5p_D_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: RPI
+  name: ribose-5-phosphate isomerase
+  genes: imaginary1596 or imaginary3193
+  equation: r5p_c[c] <=> ru5p_D_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: SUCCt2_2
+  name: succinate transport via proton symport (2 H)
+  genes: imaginary8390
+  equation: (2) h_e[e] + succ_e[e] => (2) h_c[c] + succ_c[c]
+  subsystem: Transport, Extracellular
+- id: SUCDi
+  name: succinate dehydrogenase (irreversible)
+  genes: imaginary4313 and imaginary6218 and imaginary6413 and imaginary9065
+  equation: q8_c[c] + succ_c[c] => fum_c[c] + q8h2_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: SUCOAS
+  name: succinyl-CoA synthetase (ADP-forming)
+  genes: imaginary3121 and imaginary8819
+  equation: atp_c[c] + coa_c[c] + succ_c[c] <=> adp_c[c] + pi_c[c] + succoa_c[c]
+  subsystem: Citric Acid Cycle
+- id: TALA
+  name: transaldolase
+  genes: imaginary5346 or imaginary546
+  equation: g3p_c[c] + s7p_c[c] <=> e4p_c[c] + f6p_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: THD2
+  name: NAD(P) transhydrogenase
+  genes: imaginary8197 and imaginary511
+  equation: (2) h_e[e] + nadh_c[c] + nadp_c[c] => (2) h_c[c] + nad_c[c] + nadph_c[c]
+  subsystem: Oxidative Phosphorylation
+- id: TKT1
+  name: transketolase
+  genes: imaginary1459 or imaginary9441
+  equation: r5p_c[c] + xu5p_D_c[c] <=> g3p_c[c] + s7p_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: TKT2
+  name: transketolase
+  genes: imaginary1459 or imaginary9441
+  equation: e4p_c[c] + xu5p_D_c[c] <=> f6p_c[c] + g3p_c[c]
+  subsystem: Pentose Phosphate Pathway
+- id: TPI
+  name: triose-phosphate isomerase
+  genes: imaginary3645
+  equation: dhap_c[c] <=> g3p_c[c]
+  subsystem: Glycolysis/Gluconeogenesis

@@ -1,0 +1,9 @@
+deltaG: ./additional-data/e-coli-deltaG.tsv
+exclude: ./additional-data/e-coli-exclude.tsv
+transporters: ./additional-data/e-coli-transporters.tsv
+concentrations: ./additional-data/e-coli-concentrations.tsv
+proton-in: h_c[c]
+proton-out: h_e[e]
+water:
+  - h2o_c[c]
+  - h2o_e[e]
