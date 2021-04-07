@@ -1,0 +1,5 @@
+name: Default medium
+compounds:
+- id: A
+  reaction: EX_A[e]
+  lower: 0.0

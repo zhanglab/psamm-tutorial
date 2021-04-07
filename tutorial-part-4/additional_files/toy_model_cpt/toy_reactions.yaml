@@ -1,0 +1,22 @@
+- id: rxn_1
+  equation: 'A[e] => A[c]'
+- id: rxn_6
+  equation: 'A[c] => B[c]'
+- id: rxn_2
+  equation: 'B[c] => C[c]'
+- id: rxn_3
+  equation: 'B[c] => D[y]'
+- id: rxn_4
+  equation: 'C[c] => E[y]'
+- id: rxn_5
+  equation: 'D[y] => B[y]'
+- id: toy_biomass
+  equation: 'E[y] => D[y]'
+- id: rxn_7
+  equation: 'B[c] => C[x]'
+- id: rxn_8
+  equation: 'C[x] => D[xx]'
+- id: rxn_9
+  equation: 'D[x] => E[xx]'
+
+

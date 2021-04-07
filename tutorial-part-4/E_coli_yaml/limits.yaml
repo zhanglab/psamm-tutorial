@@ -1,0 +1,5 @@
+- reaction: ATPM
+  lower: 8.39
+- reaction: AKGDH
+  lower: -1000
+  upper: 1000
