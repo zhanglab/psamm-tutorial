@@ -1,0 +1,28 @@
+name: toy_model
+biomass: toy_biomass
+default_flux_limit: 1000.0
+compartments:
+- id: c
+  adjacent_to:
+  - e
+  - x
+  - y
+  name: Cytoplasm
+- id: e
+  adjacent_to: c
+  name: Extracellular
+- id: x
+  adjacent_to:
+  - c
+  - xx
+  name: Mitochondrion
+- id: xx
+  adjacent_to: x
+- id: y
+  adjacent_to: c
+compounds:
+- include: toy_compounds.yaml
+reactions:
+- include: toy_reactions.yaml
+exchange:
+- include: toy_exchange.yaml
